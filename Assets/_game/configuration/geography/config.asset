@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e3f18abdb25ce40980f1d7f8499526, type: 3}
+  m_Name: config
+  m_EditorClassIdentifier: 
+  mainTitle: Geography
+  theme: {fileID: 11400000, guid: 96f8798c8e4cf75458bfb478e2b0ee27, type: 2}
+  library: {fileID: 11400000, guid: 1ad2eb3e5237c4cecb8c560ac115f0f2, type: 2}
+  productName: Q:Geography
+  packageName: com.tcstudios.quizzed.geography
+  defaultIcon:
+  - {fileID: 2800000, guid: dd4d525e8f81c6649932b366de5f4a0d, type: 3}
+  shareImage: {fileID: 2800000, guid: 22900d015ed958542a645d9c9d44d0d3, type: 3}
+  shareText: Test your knowledge!
+  shareURL: Download it here https://quizzed.page.link/geo
+  roundSize: 10
+  roundTime: 60
+  androidProductID: remove.ads
+  iOSProductID: remove.ads
+  title: Q:Geography
+  body: Refresh your knowledge today!
+  smallIconName: myicon.png

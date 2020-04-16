@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e3f18abdb25ce40980f1d7f8499526, type: 3}
+  m_Name: config
+  m_EditorClassIdentifier: 
+  mainTitle: Computers
+  theme: {fileID: 11400000, guid: 1353741beff987a4ebb102191f57a57b, type: 2}
+  library: {fileID: 11400000, guid: 58cb2e7b04fff8b478daa38ba59a344b, type: 2}
+  productName: Q:Computers
+  packageName: com.tcstudios.quizzed.comp
+  overrideForIOS: 0
+  productNameForIOS: 
+  packageNameForIOS: 
+  defaultIcon:
+  - {fileID: 2800000, guid: 355860124db33674d831176d7af34b44, type: 3}
+  shareImage: {fileID: 2800000, guid: 4e62357d802ef4b478054284b6e29847, type: 3}
+  shareText: Test your Computer knowledge!
+  shareURL: Download it here https://quizzed.page.link/comp
+  roundSize: 10
+  roundTime: 60
+  androidProductID: remove.ads
+  iOSProductID: comp.remove.ads
+  title: Q:Computers
+  body: How much do you know about computers? Find out!
+  smallIconName: myicon.png

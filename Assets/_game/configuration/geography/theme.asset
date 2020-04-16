@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee450c9c558c240a6eb622ebc87d0d, type: 3}
+  m_Name: theme
+  m_EditorClassIdentifier: 
+  titleText:
+    font: {fileID: 11400000, guid: 2d7b23afb85201242a9c58a5ff07acbf, type: 2}
+    overrideColor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  headerText:
+    font: {fileID: 11400000, guid: 1d6ce02166625af46adaa33c7671d61a, type: 2}
+    overrideColor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  buttonText:
+    font: {fileID: 11400000, guid: 1d6ce02166625af46adaa33c7671d61a, type: 2}
+    overrideColor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  text:
+    font: {fileID: 11400000, guid: 1d6ce02166625af46adaa33c7671d61a, type: 2}
+    overrideColor: 1
+    color: {r: 1, g: 1, b: 1, a: 1}
+  background: {fileID: 21300000, guid: e5d7e39167ad8dc4bab8ed26d3477570, type: 3}
+  panel: {fileID: 21300000, guid: fa845cc7a35ec7e4ab964d8aa1b5371f, type: 3}
+  playButton:
+    active: {fileID: 21300000, guid: 72b1bb174faf2e24ca038763042c31bf, type: 3}
+    pressed: {fileID: 21300000, guid: 3cb6e3c3d16c2854b9dffebb3d26ac91, type: 3}
+    disabled: {fileID: 21300000, guid: b092ee6d7d9dbde4083562627a47aaae, type: 3}
+  quizButton:
+    active: {fileID: 21300000, guid: 23093eeb70142b941a0503008266fbb8, type: 3}
+    pressed: {fileID: 21300000, guid: fd5387d370e54c847af8b51e5f729a61, type: 3}
+    disabled: {fileID: 21300000, guid: b092ee6d7d9dbde4083562627a47aaae, type: 3}
+  defaultButton:
+    active: {fileID: 21300000, guid: 23093eeb70142b941a0503008266fbb8, type: 3}
+    pressed: {fileID: 21300000, guid: fd5387d370e54c847af8b51e5f729a61, type: 3}
+    disabled: {fileID: 21300000, guid: b092ee6d7d9dbde4083562627a47aaae, type: 3}
+  roundButton:
+    active: {fileID: 21300000, guid: 4382f8d829e481f4684fab7b0fb5f26d, type: 3}
+    pressed: {fileID: 21300000, guid: 00a4e89dc772da24faaca5f3e356ec5f, type: 3}
+    disabled: {fileID: 21300000, guid: 72276b9cbe3291b4e9530b78073df5bb, type: 3}
+  exitButton:
+    active: {fileID: 21300000, guid: 8a87aab626c74fa4bb4f92309659cc26, type: 3}
+    pressed: {fileID: 21300000, guid: 8a87aab626c74fa4bb4f92309659cc26, type: 3}
+    disabled: {fileID: 21300000, guid: 8a87aab626c74fa4bb4f92309659cc26, type: 3}
+  accuracyRadial:
+    background: {fileID: 21300000, guid: 4382f8d829e481f4684fab7b0fb5f26d, type: 3}
+    fill: {fileID: 21300000, guid: 60eb2bb32d805c04eada04a4b153bcd9, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  homeIcon: {fileID: 21300000, guid: 346a4c7c8d0c45446b29826e469c06ba, type: 3}
+  settingsIcon: {fileID: 21300000, guid: dc34a30da65164747b49203f5603c2a2, type: 3}
+  leaderboardIcon: {fileID: 21300000, guid: 0f92cfcf607d49842b366e590ba5e55a, type: 3}
+  shareIcon: {fileID: 21300000, guid: 0441b43fe32568a4ebf007438348bc1c, type: 3}
+  correctClip: 
+  incorrectClip: 

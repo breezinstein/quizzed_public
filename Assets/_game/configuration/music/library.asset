@@ -1,0 +1,5158 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01336c827d65b435e997152ee4749cdc, type: 3}
+  m_Name: library
+  m_EditorClassIdentifier: 
+  jsonFile: {fileID: 4900000, guid: fa425ad17990c49f4b078fe3928f712e, type: 3}
+  category: 2
+  easyStats:
+    correct: 0
+    incorrect: 0
+    questionIndex: 0
+    score: 0
+  mediumStats:
+    correct: 0
+    incorrect: 0
+    questionIndex: 0
+    score: 0
+  hardStats:
+    correct: 0
+    incorrect: 0
+    questionIndex: 0
+    score: 0
+  marathonStats:
+    correct: 0
+    incorrect: 0
+    questionIndex: 0
+    score: 0
+  easyQuestions:
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the frontman of the band 30 Seconds to Mars?
+    correct_answer: Jared Leto
+    incorrect_answers:
+    - Gerard Way
+    - Matthew Bellamy
+    - Mike Shinoda
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What album did The Lumineers release in 2016?
+    correct_answer: Cleopatra
+    incorrect_answers:
+    - Winter
+    - The Lumineers
+    - Tracks From The Attic
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What album did Bon Iver release in 2016?
+    correct_answer: 22, A Million
+    incorrect_answers:
+    - Bon Iver, Bon Iver
+    - Blood Bank EP
+    - For Emma, Forever Ago
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which former boy-band star released hit solo single "Angels" in 1997?
+    correct_answer: Robbie Williams
+    incorrect_answers:
+    - Justin Timberlake
+    - Harry Styles
+    - Gary Barlow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which band recorded the album "Parallel Lines"?
+    correct_answer: Blondie
+    incorrect_answers:
+    - Paramore
+    - Coldplay
+    - The Police
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: 'Finish these lyrics from the 2016 song "Panda" by Desiigner: "I got
+      broads in _______".'
+    correct_answer: Atlanta
+    incorrect_answers:
+    - Savannah
+    - Augusta
+    - Marietta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Twitch streamer is the vocalist for Red Vox?
+    correct_answer: Vinesauce
+    incorrect_answers:
+    - The8BitDrummer
+    - LIRIK
+    - Sodapoppin
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The band Muse released their first album, Showbiz, in what year?
+    correct_answer: 1999
+    incorrect_answers:
+    - 1998
+    - 2000
+    - 2001
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In 2006, which band released their debut album "A Fever You Can't Sweat
+      Out"?
+    correct_answer: Panic! At the Disco
+    incorrect_answers:
+    - Twenty One Pilots
+    - My Chemical Romance
+    - Fall Out Boy
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which rap group released the album "Straight Outta Compton"?
+    correct_answer: N.W.A
+    incorrect_answers:
+    - Wu-Tang Clan
+    - Run-D.M.C.
+    - Beastie Boys
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which one of these songs did the group "Men At Work" NOT make?
+    correct_answer: Safety Dance
+    incorrect_answers:
+    - Down Under
+    - Who Can It Be Now?
+    - It's a Mistake
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Daft Punk originated in France.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which country does the band Rammstein hail from?
+    correct_answer: Germany
+    incorrect_answers:
+    - Austria
+    - Armenia
+    - Belgium
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: When was Gangnam Style uploaded to YouTube?
+    correct_answer: 2012
+    incorrect_answers:
+    - 2013
+    - 2014
+    - 2011
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which classical composer wrote the "Moonlight Sonata"?
+    correct_answer: Ludvig Van Beethoven
+    incorrect_answers:
+    - Chief Keef
+    - Wolfgang Amadeus Mozart
+    - Johannes Brahms
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which song on Daft Punk's "Random Access Memories" features Pharrell
+      Williams?
+    correct_answer: Get Lucky
+    incorrect_answers:
+    - Doin' It Right
+    - Instant Crush
+    - The Game of Love
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these songs by Skrillex features Fatman Scoop as a side artist?
+    correct_answer: Recess
+    incorrect_answers:
+    - All is Fair in Love and Brostep
+    - Rock N Roll (Will Take You to the Mountain)
+    - Scary Monsters and Nice Sprites
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the subject of the 2014 song "CoCo" by American rapper O. T.
+      Genasis?
+    correct_answer: Cocaine
+    incorrect_answers:
+    - Conan O'Brien
+    - Cobalt(II) carbonate
+    - Coconut cream pie
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: How many members are there in the band Nirvana?
+    correct_answer: Three
+    incorrect_answers:
+    - Two
+    - Four
+    - Five
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which brass instrument has the lowest pitch in an orchestra?
+    correct_answer: Tuba
+    incorrect_answers:
+    - Trumpet
+    - Saxophone
+    - Trombone
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Disney character sings the song "A Dream is a Wish Your Heart
+      Makes"?
+    correct_answer: Cinderella
+    incorrect_answers:
+    - Belle
+    - Snow White
+    - Pocahontas
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who performed "I Took A Pill In Ibiza"?
+    correct_answer: Mike Posner
+    incorrect_answers:
+    - Avicii
+    - Robbie Williams
+    - Harry Styles
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The "K" in "K-Pop" stands for which word?
+    correct_answer: Korean
+    incorrect_answers:
+    - Kenyan
+    - Kazakhstan
+    - Kuwaiti
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In an orchestra, what is the lowest member of the brass family?
+    correct_answer: Tuba
+    incorrect_answers:
+    - Trombone
+    - Contrabass
+    - Bassoon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the best selling album of 2015?
+    correct_answer: Adele, 25
+    incorrect_answers:
+    - Fetty Wap, Fetty Wap
+    - Taylor Swift, 1989
+    - Justin Bieber, Purpose
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Sting, the lead vocalist of The Police, primarily plays what instrument?
+    correct_answer: Bass Guitar
+    incorrect_answers:
+    - Drums
+    - Guitar
+    - Keyboards
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The music group Daft Punk got their name from a negative review they
+      recieved.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Whose signature guitar technique is called the "windmill"?
+    correct_answer: Pete Townshend
+    incorrect_answers:
+    - Jimmy Page
+    - Eddie Van Halen
+    - Jimi Hendrix
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Kanye West at 2009 VMA's interrupted which celebrity?
+    correct_answer: Taylor Swift
+    incorrect_answers:
+    - MF DOOM
+    - Beyonce
+    - Beck
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The 2016 song "Starboy" by Canadian singer The Weeknd features which
+      prominent electronic artist?
+    correct_answer: Daft Punk
+    incorrect_answers:
+    - deadmau5
+    - Disclosure
+    - DJ Shadow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: 'Who was featured in the song "Words" by Feint? '
+    correct_answer: Laura Brehm
+    incorrect_answers:
+    - 'Anna Yvette '
+    - Danyka Nadeau
+    - Veela
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who had a 1969 top 5 hit with the song,  'A Boy Named Sue'?
+    correct_answer: Johnny Cash
+    incorrect_answers:
+    - Bob Dylan
+    - Willie Nelson
+    - Kris Kristofferson
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Ringo Starr of The Beatles mainly played what instrument?
+    correct_answer: Drums
+    incorrect_answers:
+    - Bass
+    - Guitar
+    - Piano
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Where does the Mac part of the name Fleetwood Mac come from?
+    correct_answer: John McVie
+    incorrect_answers:
+    - Christine McVie
+    - Mac McAnally
+    - David Tennant
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the stage name of English female rapper Mathangi Arulpragasam,
+      who is known for the song "Paper Planes"?
+    correct_answer: M.I.A.
+    incorrect_answers:
+    - K.I.A.
+    - C.I.A.
+    - A.I.A.
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: American rapper Dr. Dre actually has a Ph.D. doctorate.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the frontman's name of the metal band Megadeth?
+    correct_answer: Dave Mustaine
+    incorrect_answers:
+    - Rob Halford
+    - Vince Neil
+    - James Hetfield
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which member of the Foo Fighters was previously the drummer for Nirvana?
+    correct_answer: Dave Grohl
+    incorrect_answers:
+    - Taylor Hawkins
+    - Nate Mendel
+    - Chris Shiflett
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these is NOT the name of an album released by English singer-songwriter
+      Adele?
+    correct_answer: 12
+    incorrect_answers:
+    - 19
+    - 21
+    - 25
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Beatles album does NOT feature any of the band members on it's
+      cover?
+    correct_answer: The Beatles (White Album)
+    incorrect_answers:
+    - Rubber Soul
+    - Abbey Road
+    - Magical Mystery Tour
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of Green Day?
+    correct_answer: Billie Joe Armstrong
+    incorrect_answers:
+    - Mike Dirnt
+    - Sean Hughes
+    - "Tr\xE9 Cool"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: '"The Singing Cowboy" Gene Autry is credited with the first recording
+      for all but which classic Christmas jingle?'
+    correct_answer: White Christmas
+    incorrect_answers:
+    - Frosty the Snowman
+    - Rudolph the Red-Nosed Reindeer
+    - Here Comes Santa Claus
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the name of singer Frank Ocean's second studio album, which
+      was released on August 20, 2016?
+    correct_answer: Blonde
+    incorrect_answers:
+    - Brunette
+    - Black
+    - Burgundy
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which artist released the 2012 single "Harlem Shake", which was used
+      in numerous YouTube videos in 2013?
+    correct_answer: Baauer
+    incorrect_answers:
+    - RL Grime
+    - NGHTMRE
+    - Flosstradamus
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was Rage Against the Machine's debut album?
+    correct_answer: Rage Against the Machine
+    incorrect_answers:
+    - Evil Empire
+    - Bombtrack
+    - The Battle Of Los Angeles
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Kanye West's "Gold Digger" featured which Oscar-winning actor?
+    correct_answer: Jamie Foxx
+    incorrect_answers:
+    - Alec Baldwin
+    - Dwayne Johnson
+    - ' Bruce Willis'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the name of Finnish DJ Darude's hit single released in October
+      1999?
+    correct_answer: Sandstorm
+    incorrect_answers:
+    - Dust Devil
+    - Sirocco
+    - Khamsin
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In the  Rossini opera, what was the name of 'The Barber of Seville'?
+    correct_answer: Figaro
+    incorrect_answers:
+    - Angelo
+    - Fernando
+    - Dave
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Canadian reggae musician had a 1993 hit with the song 'Informer'?
+    correct_answer: Snow
+    incorrect_answers:
+    - Rain
+    - Hail
+    - Sleet
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: "Which singer was featured in Jack \xDC (Skrillex & Diplo)'s 2015 song
+      'Where Are \xDC Now'?"
+    correct_answer: Justin Bieber
+    incorrect_answers:
+    - Selena Gomez
+    - Ellie Goulding
+    - The Weeknd
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is not a wind instrument?
+    correct_answer: Viola
+    incorrect_answers:
+    - Oboe
+    - Trombone
+    - Duduk
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: '"Some people call me the space cowboy" is the first line from what
+      song?'
+    correct_answer: The Joker
+    incorrect_answers:
+    - Fandango
+    - Take The Money and Run
+    - Fly Like an Eagle
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What collaborative album was released by Kanye West and Jay-Z in 2011?
+    correct_answer: Watch the Throne
+    incorrect_answers:
+    - Distant Relatives
+    - What a Time to be Alive
+    - Unfinished Business
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which English guitarist has the nickname "Slowhand"?
+    correct_answer: Eric Clapton
+    incorrect_answers:
+    - Mark Knopfler
+    - Jeff Beck
+    - Jimmy Page
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The song "Stronger Than You" is a single by Estelle, who played Garnet
+      in Steven Universe.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Nirvana album had a naked baby on the cover?
+    correct_answer: Nevermind
+    incorrect_answers:
+    - Bleach
+    - In Utero
+    - Incesticide
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the name of the album released in 2014 by American band Maroon
+      5?
+    correct_answer: V
+    incorrect_answers:
+    - X
+    - III
+    - IV
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: According to the American rapper Nelly, what should you do when its
+      hot in here?
+    correct_answer: Take off all your clothes
+    incorrect_answers:
+    - Take a cool shower
+    - Drink some water
+    - Go skinny dipping
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: "Which famous rapper is featured in Jack \xDC (Skrillex and Diplo)'s
+      2015 single called \"Febreze\"?"
+    correct_answer: 2 Chainz
+    incorrect_answers:
+    - Kendrick Lamar
+    - Future
+    - Fatman Scoop
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was Daft Punk's first studio album?
+    correct_answer: Homework
+    incorrect_answers:
+    - Discovery
+    - Random Access Memories
+    - Human After All
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these is the name of a song by Tears for Fears?
+    correct_answer: Shout
+    incorrect_answers:
+    - Scream
+    - Yell
+    - Shriek
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The music video to The Buggle's "Video Killed the Radio Star" was the
+      first music video to broadcast on MTV.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: A Saxophone is a brass instrument.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Michael Jackson wrote The Simpsons song "Do the Bartman".
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: According to a song by Belinda Carlisle, Heaven is a place on what?
+    correct_answer: Earth
+    incorrect_answers:
+    - Venus
+    - Mars
+    - Uranus
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The Red Hot Chili Pepper song "Give It Away" is from what album?
+    correct_answer: Blood Sugar Sex Magik
+    incorrect_answers:
+    - One Hot Minute
+    - By the Way
+    - Stadium Arcadium
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: How many studio albums have the duo Daft Punk released?
+    correct_answer: 4
+    incorrect_answers:
+    - 1
+    - 5
+    - 2
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: From which country did the song "Gangnam Style" originate from?
+    correct_answer: South Korea
+    incorrect_answers:
+    - Japan
+    - North Korea
+    - China
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which 80s band is fronted by singer/guitarist Robert Smith?
+    correct_answer: The Cure
+    incorrect_answers:
+    - The Smiths
+    - Echo & the Bunnymen
+    - New Order
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of the band Coldplay?
+    correct_answer: Chris Martin
+    incorrect_answers:
+    - Chris Isaak
+    - Chris Wallace
+    - Chris Connelly
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of the following songs did Elton John perform following Princess
+      Diane's passing?
+    correct_answer: Candles in the Wind
+    incorrect_answers:
+    - I Guess That's Why They Call It The Blues
+    - Your Song
+    - Island Girl
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the best selling album of all time from 1976 to 2018?
+    correct_answer: Thriller
+    incorrect_answers:
+    - Back in Black
+    - Abbey Road
+    - The Dark Side of the Moon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who had a 1983 hit with the song 'Africa'?
+    correct_answer: Toto
+    incorrect_answers:
+    - Foreigner
+    - Steely Dan
+    - Journey
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of Pearl Jam?
+    correct_answer: Eddie Vedder
+    incorrect_answers:
+    - Ozzy Osbourne
+    - Stone Gossard
+    - Kurt Cobain
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: 'The alternative rock band, They Might Be Giants, released their album
+      ''Flood'' in 1990. '
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Stevie Wonder's real name is Stevland Hardaway Morris.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Eurobeat is primarily an Italian genre of music.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which band released songs suchs as "Rio", "Girls on Film", and "The
+      Reflex"?
+    correct_answer: Duran Duran
+    incorrect_answers:
+    - The Cure
+    - New Order
+    - Depeche Mode
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of the British pop rock band Coldplay?
+    correct_answer: Chris Martin
+    incorrect_answers:
+    - Jonny Buckland
+    - Guy Berryman
+    - Will Champion
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In Mean Girls, who has breasts that tell when it's raining?
+    correct_answer: Karen Smith
+    incorrect_answers:
+    - Gretchen Weiners
+    - Janice Ian
+    - Cady Heron
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?
+    correct_answer: Prince
+    incorrect_answers:
+    - Michael Jackson
+    - Cameo
+    - Rick James
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Brian May was the guitarist for which band?
+    correct_answer: Queen
+    incorrect_answers:
+    - Pink Floyd
+    - Rolling Stones
+    - The Doors
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Scatman John's real name was John Paul Larkin.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  mediumQuestions:
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the artist of the recent new album the Uncanny Valley?
+    correct_answer: Perturbator
+    incorrect_answers:
+    - Carpenter Brut
+    - GOST
+    - 'Dan Terminus '
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these rappers is NOT a member of the rap group Wu-Tang
+      Clan?
+    correct_answer: Dr.Dre
+    incorrect_answers:
+    - Ol' Dirty Bastard
+    - GZA
+    - Method Man
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands is the oldest?
+    correct_answer: Pink Floyd
+    incorrect_answers:
+    - AC/DC
+    - Metallica
+    - Red Hot Chili Peppers
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of the following guitarists recorded an album as a member of the
+      Red Hot Chili Peppers?
+    correct_answer: Dave Navarro
+    incorrect_answers:
+    - 'Tom Morello '
+    - Billy Corgan
+    - Ed O'Brien
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was Radiohead's first album?
+    correct_answer: Pablo Honey
+    incorrect_answers:
+    - The Bends
+    - Kid A
+    - A Moon Shaped Pool
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: 3 members of 2 Live Crew were arrested for playing songs from their
+      album, As Nasty As They Wanna Be, live.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: "The country song  \u201CA Boy Named Sue\u201D was written by Shel Silverstein."
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these languages was NOT included in the 2016 song "Don't Mind"
+      by Kent Jones?
+    correct_answer: Portuguese
+    incorrect_answers:
+    - Japanese
+    - French
+    - Spanish
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What year was Red Hot Chill Pepper's album "Californication" released?
+    correct_answer: 1999
+    incorrect_answers:
+    - 1997
+    - 2000
+    - 1992
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT the name of an album released by American rapper
+      Viper?
+    correct_answer: The Life of Pablo
+    incorrect_answers:
+    - Kill Urself My Man
+    - You'll Cowards Don't Even Smoke Crack
+    - Yo Wife Handcuffin' Me
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of Bastille?
+    correct_answer: Dan Smith
+    incorrect_answers:
+    - Will Farquarson
+    - Kyle Simmons
+    - Chris Wood
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?
+    correct_answer: The Tornados
+    incorrect_answers:
+    - The Ventures
+    - The Spotnicks
+    - The Tremeloes
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Feel Good Inc." by British band Gorillaz features which hip
+      hop group?
+    correct_answer: De La Soul
+    incorrect_answers:
+    - Public Enemy
+    - OutKast
+    - Cypress Hill
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs is NOT in The Beatles' album "Sgt. Pepper's Lonely
+      Hearts Club Band"?
+    correct_answer: Strawberry Fields Forever
+    incorrect_answers:
+    - Getting Better
+    - Fixing a Hole
+    - Lucy in the Sky with Diamonds
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country is singer Kyary Pamyu Pamyu from?
+    correct_answer: Japan
+    incorrect_answers:
+    - South Korea
+    - China
+    - Vietnam
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Toronto landmark was featured on the cover art of Canadian rapper
+      Drake's 2016 album "Views"?
+    correct_answer: CN Tower
+    incorrect_answers:
+    - Allan Gardens
+    - Union Station
+    - Prince of Wales Theatre
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of Silverchair?
+    correct_answer: Daniel Johns
+    incorrect_answers:
+    - Ben Gillies
+    - Chris Joannou
+    - 
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: May 16th of every year is known as __________ Day, named after a punk
+      band prominent in the 1990s.
+    correct_answer: Lagwagon
+    incorrect_answers:
+    - Goldfinger
+    - Less Than Jake
+    - Lit
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the name of Pink Floyd's first studio album?
+    correct_answer: The Piper at the Gates of Dawn
+    incorrect_answers:
+    - Ummagumma
+    - More
+    - Atom Heart Mother
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Norwegian producer Kygo released a remix of the song "Sexual Healing"
+      by Marvin Gaye.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which American family band had a 1986 top 10 hit with the song 'Crush
+      On You'?
+    correct_answer: The Jets
+    incorrect_answers:
+    - DeBarge
+    - The Jacksons
+    - The Cover Girls
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: How many copies have Metallica album "Metallica" (A.K.A The Black Album)
+      sold worldwide (in Millions of Copies)?
+    correct_answer: 20.5
+    incorrect_answers:
+    - 19.5
+    - 22.5
+    - 25.5
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs is not on the "untitled" album by Led Zeppelin?
+    correct_answer: Celebration Day
+    incorrect_answers:
+    - Stairway to Heaven
+    - Black Dog
+    - Rock and Roll
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is not a single by Pink Floyd guitarist, David Gilmour?
+    correct_answer: Sunset Strip
+    incorrect_answers:
+    - Rattle That Lock
+    - Blue Light
+    - Arnold Layne
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who performed the guitar solo on Michael Jackson's hit "Beat It"?
+    correct_answer: Eddie Van Halen
+    incorrect_answers:
+    - Steve Vai
+    - Kirk Hammett
+    - Zakk Wylde
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who was the lead singer and frontman of rock band R.E.M?
+    correct_answer: Michael Stipe
+    incorrect_answers:
+    - Chris Martin
+    - Thom Yorke
+    - George Michael
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the founder and leader of industrial rock band, 'Nine Inch Nails'?
+    correct_answer: Trent Reznor
+    incorrect_answers:
+    - Marilyn Manson
+    - Robin Finck
+    - Josh Homme
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which popular rock band has a one-armed drummer?
+    correct_answer: Def Leppard
+    incorrect_answers:
+    - The Beatles
+    - Lynyrd Skynyrd
+    - Foreigner
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: EDM producer Marshmello performs live wearing clothes and a marshmallow
+      mask of what colour?
+    correct_answer: White
+    incorrect_answers:
+    - Black
+    - Blue
+    - Yellow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Ellie Goulding's earliest album was named?
+    correct_answer: Lights
+    incorrect_answers:
+    - Halcyon
+    - Bright Lights
+    - Halcyon Days
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What French artist/band is known for playing on the midi instrument
+      "Launchpad"?
+    correct_answer: Madeon
+    incorrect_answers:
+    - 'Daft Punk '
+    - Disclosure
+    - David Guetta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Lift Your Spirit" is an album by which artist?'
+    correct_answer: Aloe Blacc
+    incorrect_answers:
+    - Lena Meyer-Landrut
+    - Stevie Wonder
+    - Taylor Swift
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Drink the Sea" is an album by which electronic music artist?'
+    correct_answer: The Glitch Mob
+    incorrect_answers:
+    - Avicii
+    - XXYYXX
+    - Flux Pavilion
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: African-American performer Sammy Davis Jr. was known for losing which
+      part of his body in a car accident?
+    correct_answer: Left Eye
+    incorrect_answers:
+    - Right Ear
+    - Right Middle Finger
+    - Nose
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a name of an album released by American rapper
+      Pitbull?
+    correct_answer: Welcome to Miami
+    incorrect_answers:
+    - Dale
+    - Global Warming
+    - Armando
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the first track on Kanye West's 808s & Heartbreak?
+    correct_answer: Say You Will
+    incorrect_answers:
+    - Welcome to Heartbreak
+    - Street Lights
+    - Heartless
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had hits in the 70s with the songs "Lonely Boy" and "Never Let Her
+      Slip Away"?
+    correct_answer: Andrew Gold
+    incorrect_answers:
+    - Elton John
+    - Leo Sayer
+    - 'Barry White '
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT an album released by The Beatles?
+    correct_answer: The Wall
+    incorrect_answers:
+    - Abbey Road
+    - Magical Mystery Tour
+    - Revolver
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which city did American rap producer DJ Khaled originate from?
+    correct_answer: Miami
+    incorrect_answers:
+    - New York
+    - Detroit
+    - Atlanta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song by Swedish electronic musician Avicii samples the song "Something's
+      Got A Hold On Me" by Etta James?
+    correct_answer: Levels
+    incorrect_answers:
+    - Fade Into Darkness
+    - Silhouettes
+    - Seek Bromance
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the last song on the first Panic! At the Disco album?
+    correct_answer: Build God, Then We'll Talk
+    incorrect_answers:
+    - Nails for Breakfast, Tacks for Snacks
+    - I Write Sins Not Tragedies
+    - Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Typically, how many keys are on a piano?
+    correct_answer: 88
+    incorrect_answers:
+    - 24
+    - 12
+    - 96
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Soulja Boy's 'Crank That' won a Grammy for Best Rap Song in 2007.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country does the electronic music duo "The Knife" originate from?
+    correct_answer: Sweden
+    incorrect_answers:
+    - Finland
+    - Denmark
+    - Norway
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of the following bands is Tom DeLonge not a part of?
+    correct_answer: +44
+    incorrect_answers:
+    - Box Car Racer
+    - Blink-182
+    - Angels & Airwaves
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Make You Feel My Love" was originally written and performed by which
+      singer-songwriter?'
+    correct_answer: Bob Dylan
+    incorrect_answers:
+    - Elvis
+    - Adele
+    - Billy Joel
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In 2015, David Hasselhof released a single called...
+    correct_answer: True Survivor
+    incorrect_answers:
+    - True Fighter
+    - Real Kung-Fury
+    - Real Warrior
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What animal is featured on the cover of English electronic music group
+      The Prodigy's album, "The Fat of the Land"?
+    correct_answer: Crab
+    incorrect_answers:
+    - Fox
+    - Elephant
+    - Tiger
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these Pink Floyd albums were also a movie?
+    correct_answer: The Wall
+    incorrect_answers:
+    - The Dark Side of the Moon
+    - Wish You Were Here
+    - Animals
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs did Jimi Hendrix cover?
+    correct_answer: All of these songs
+    incorrect_answers:
+    - Sgt. Pepper's Lonely Hearts Club Band
+    - All Along the Watchtower
+    - House of the Rising Sun
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: '"The Division Bell" is the final album of the progressive rock band
+      Pink Floyd.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is not an Ed Sheeran album?
+    correct_answer: '-'
+    incorrect_answers:
+    - +
+    - X
+    - "\xF7"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The Who's eponymous line, "Teenage Wasteland", appears in which of their
+      songs?
+    correct_answer: Baba O' Riley
+    incorrect_answers:
+    - The Seeker
+    - Won't Get Fooled Again
+    - Pinball Wizard
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Beatle led the way across the zebra crossing on the Abbey Road
+      album cover?
+    correct_answer: John
+    incorrect_answers:
+    - Paul
+    - George
+    - Ringo
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: '"Twenty One Pilots" made the song "The Motion" featuring Sampha.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of The Lumineers?
+    correct_answer: Wesley Schultz
+    incorrect_answers:
+    - Jeremiah Fraites
+    - Jay Van Dyke
+    - Neyla Pekarek
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band released songs such as "Electric Feel", "Kids", and "Time
+      to Pretend"?
+    correct_answer: MGMT
+    incorrect_answers:
+    - Passion Pit
+    - Phoenix
+    - Franz Ferdinand
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: According to their 1974 hit, what were Brownsville Station doing "In
+      The Boys' Room"?
+    correct_answer: Smokin'
+    incorrect_answers:
+    - Hangin'
+    - Lovin'
+    - Peein'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: EDM record label Monstercat is based in which country?
+    correct_answer: Canada
+    incorrect_answers:
+    - United States
+    - Australia
+    - United Kingdom
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?
+    correct_answer: Leo Sayer
+    incorrect_answers:
+    - Elton John
+    - Billy Joel
+    - Andy Gibb
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What's the most common time signature for rock songs?
+    correct_answer: 4/4
+    incorrect_answers:
+    - 1/2
+    - 8/12
+    - 2/4
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country does the power metal band "Sabaton" originate from?
+    correct_answer: Sweden
+    incorrect_answers:
+    - Germany
+    - United States
+    - Finland
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Johnny Cash did a cover of this song written by lead singer of Nine
+      Inch Nails, Trent Reznor.
+    correct_answer: Hurt
+    incorrect_answers:
+    - Closer
+    - A Warm Place
+    - Big Man with a Gun
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What musician made the song "Fuckin` Perfect" in 2010?
+    correct_answer: P!nk
+    incorrect_answers:
+    - Mitis
+    - Adam lambert
+    - Koven
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which rapper had an album that went double platinum with no features?
+    correct_answer: J. Cole
+    incorrect_answers:
+    - Kendrick Lamar
+    - Drake
+    - Big Sean
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Moby, an American DJ, singer, and musician, achieved worldwide success
+      for the 1999 release of which of the following albums?
+    correct_answer: Play
+    incorrect_answers:
+    - Everything Is Wrong
+    - Moby
+    - 18
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which year was the Megadeth album "Peace Sells... but Who's Buying?"
+      released?
+    correct_answer: 1986
+    incorrect_answers:
+    - 1979
+    - 1987
+    - 1986
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Nick Mason is the only member to appear on every Pink Floyd album.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Pink Floyd made this song for their previous lead singer Syd Barrett.
+    correct_answer: Shine On You Crazy Diamond
+    incorrect_answers:
+    - Wish You Were Here
+    - Have A Cigar
+    - Welcome to the Machine
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs by artist Eminem contain the lyric "Nice to meet
+      you. Hi, my name is... I forgot my name!"?
+    correct_answer: Rain Man
+    incorrect_answers:
+    - Without Me
+    - Kim
+    - Square Dance
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of the main character from the music video of "Shelter"
+      by Porter Robinson and A-1 Studios?
+    correct_answer: Rin
+    incorrect_answers:
+    - Rem
+    - Ren
+    - Ram
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which member of "The Beatles" narrated episodes of "Thomas the Tank
+      Engine"?
+    correct_answer: Ringo Starr
+    incorrect_answers:
+    - George Harrison
+    - John Lennon
+    - Paul McCartney
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011
+      Grammys.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song in Drake's "Views" features Future?
+    correct_answer: Grammys
+    incorrect_answers:
+    - Too Good
+    - Faithful
+    - Pop Style
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Pink Guy's debut album was "Pink Season".
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is Brian May's guitar called?
+    correct_answer: Red Special
+    incorrect_answers:
+    - Blue Special
+    - Green Special
+    - Yellow Special
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which album by American rapper Kanye West contained songs such as "Love
+      Lockdown", "Paranoid" and "Heartless"?
+    correct_answer: 808s & Heartbreak
+    incorrect_answers:
+    - Late Registration
+    - The Life of Pablo
+    - Graduation
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Queen song was covered by Brittany Murphy in the 2006 film "Happy
+      Feet"?
+    correct_answer: Somebody to Love
+    incorrect_answers:
+    - Under Pressure
+    - Flash
+    - Bohemian Rhapsody
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: 'Musical artist, Future, collaborated with Kendrick Lamar for the song:
+      "Mask Off".'
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song is not by TheFatRat?
+    correct_answer: Ascent
+    incorrect_answers:
+    - Monody
+    - Windfall
+    - Infinite Power!
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Iron Maiden album did the song "Dream of Mirrors" feature in?
+    correct_answer: Brave New World
+    incorrect_answers:
+    - Dance of Death
+    - A Matter of Life and Death
+    - Somewhere in Time
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands are NOT from Australia?
+    correct_answer: The Naked and Famous
+    incorrect_answers:
+    - Cut Copy
+    - Empire of the Sun
+    - Tame Impala
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: From which album is the Gorillaz song, "On Melancholy Hill" featured
+      in?
+    correct_answer: Plastic Beach
+    incorrect_answers:
+    - Demon Days
+    - Humanz
+    - The Fall
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When did The Beatles release the LP "Please Please Me"?
+    correct_answer: 1963
+    incorrect_answers:
+    - 1970
+    - 1960
+    - 1969
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the vocalist and frontman of rock band "Guns N' Roses"?
+    correct_answer: Axl Rose
+    incorrect_answers:
+    - Kurt Cobain
+    - Slash
+    - Bono
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is the name of an American psychedelic rock band formed
+      in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?
+    correct_answer: MGMT
+    incorrect_answers:
+    - MSTRKRFT
+    - STRFKR
+    - SBTRKT
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of French electronic music producer Madeon's 2015 debut
+      studio album?
+    correct_answer: Adventure
+    incorrect_answers:
+    - The City
+    - Icarus
+    - Pop Culture
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band had hits in 1972 with the songs "Baby I'm A Want You", "Everything
+      I Own" and "The Guitar Man"
+    correct_answer: Bread
+    incorrect_answers:
+    - America
+    - Chicago
+    - Smokie
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who wrote the musical composition, "Rhapsody In Blue"?
+    correct_answer: George Gershwin
+    incorrect_answers:
+    - Irving Berlin
+    - Duke Ellington
+    - Johnny Mandel
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these Rammstein songs has two official music videos?
+    correct_answer: Du Riechst So Gut
+    incorrect_answers:
+    - Du Hast
+    - Benzin
+    - Mein Teil
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: "In the song \u201CThe Ultimate Showdown of Ultimate Destiny,\u201D
+      who is the only one to survive the battle?"
+    correct_answer: Mr. Rogers
+    incorrect_answers:
+    - Batman
+    - Chuck Norris
+    - Godzilla
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Irish musician Hozier released a music track in 2013 titled, "Take Me
+      to ______"
+    correct_answer: Church
+    incorrect_answers:
+    - Mosque
+    - Synagogue
+    - Temple
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Scottish producer Calvin Harris is from the town of Dumfries, Scotland.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these artists appears in the album Deltron 3030?
+    correct_answer: Dan the Automater
+    incorrect_answers:
+    - Lamarr Kendrick
+    - Danger Mouse
+    - CeeLo Green
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Twin Size Mattress" was written by which band?
+    correct_answer: The Front Bottoms
+    incorrect_answers:
+    - Twenty One Pilots
+    - The Wonder Years
+    - The Smith Street Band
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Caramelldansen" is commonly mistaken as a Japanese song, what
+      language is the song actually sung in?
+    correct_answer: Swedish
+    incorrect_answers:
+    - Hungarian
+    - Finnish
+    - Chinese
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren
+      most well-known for?
+    correct_answer: Trance
+    incorrect_answers:
+    - House
+    - Drum and Bass
+    - Dubstep
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Madonna's song "Hung Up" includes a piece from which popular 70s song?
+    correct_answer: Gimmie! Gimmie! Gimme! (A Man After Midnight)
+    incorrect_answers:
+    - Staying Alive
+    - Night Fever
+    - The Chain
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the frontman of Muse?
+    correct_answer: Matt Bellamy
+    incorrect_answers:
+    - Dominic Howard
+    - Thom Yorke
+    - Jonny Greenwood
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Cryoshell, known for "Creeping in My Soul" did the advertising music
+      for what Lego Theme?
+    correct_answer: Bionicle
+    incorrect_answers:
+    - Hero Factory
+    - Ben 10 Alien Force
+    - Star Wars
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT the name of an album released by Miami-based producer
+      DJ Khaled?
+    correct_answer: Don't Ever Play Yourself
+    incorrect_answers:
+    - Major Key
+    - Suffering From Success
+    - I Changed A Lot
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the title of Sakamoto Kyu's song "Ue o Muite Arukou" (I Look
+      Up As I Walk) changed to in the United States?
+    correct_answer: Sukiyaki
+    incorrect_answers:
+    - Takoyaki
+    - Sushi
+    - Oden
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which famous 90's rap album is commonly referred to as "The Bible of
+      Hip Hop"?
+    correct_answer: Illmatic
+    incorrect_answers:
+    - The Low End Theory
+    - The Chronic
+    - Enter The Wu-Tang (36 Chambers)
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: How many members are in the Japanese rock band SCANDAL?
+    correct_answer: 4
+    incorrect_answers:
+    - 5
+    - 2
+    - 18
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When did Tame Impala release their second album?
+    correct_answer: 2012
+    incorrect_answers:
+    - 2015
+    - 2010
+    - 1967
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Saul Hudson (Slash) of the band Guns N' Roses is known for playing what
+      type of guitar?
+    correct_answer: Les Paul Standard
+    incorrect_answers:
+    - Fender Stratocaster
+    - LsL Mongrel
+    - Gretsch Falcon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which singer was featured in Swedish producer Avicii's song "Wake Me
+      Up"?
+    correct_answer: Aloe Blacc
+    incorrect_answers:
+    - John Legend
+    - CeeLo Green
+    - Pharrell Williams
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a 1973 hit with the song 'Hocus Pocus'?
+    correct_answer: Focus
+    incorrect_answers:
+    - Pilot
+    - Rush
+    - AC/DC
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: The cover of The Beatles album "Abbey Road" featured a Volkswagen Beetle
+      in the background.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the Pink Floyd song "Shine On You Crazy Diamond" written about?
+    correct_answer: Syd Barrett
+    incorrect_answers:
+    - John Lennon
+    - David Gilmour
+    - Floyd
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the best selling artist of all time?
+    correct_answer: The Beatles
+    incorrect_answers:
+    - Michael Jackson
+    - Elton John
+    - Elvis Presley
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: For his performance at ComplexCon 2016 in Long Beach, California, Skrillex
+      revived his "Mothership" set piece for one night only.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is rapper Drake's real name?
+    correct_answer: Aubrey Graham
+    incorrect_answers:
+    - Shaun Carter
+    - Dwayne Carter
+    - Andre Young
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which artist collaborated with American DJ Dillon Francis to release
+      the song 2016 "Need You"?
+    correct_answer: NGHTMRE
+    incorrect_answers:
+    - LOUDPVCK
+    - KRNE
+    - DVBBS
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of the 2016 studio album by the French electronic music
+      duo Justice?
+    correct_answer: Woman
+    incorrect_answers:
+    - Randy
+    - Safe and Sound
+    - Pleasure
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists has NOT been a member of dancehall group Major
+      Lazer?
+    correct_answer: Skrillex
+    incorrect_answers:
+    - Diplo
+    - Jillionaire
+    - Walshy Fire
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In what film was the Michael Jackson song "Will You Be There" featured?
+    correct_answer: Free Willy
+    incorrect_answers:
+    - Sleepless in Seattle
+    - Men in Black
+    - Bad Boys
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a song by Pegboard Nerds?
+    correct_answer: WiFi Tears
+    incorrect_answers:
+    - Swamp Thing
+    - Emoji
+    - BAMF
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band released the album "Sonic Highways" in 2014?
+    correct_answer: Foo Fighters
+    incorrect_answers:
+    - Coldplay
+    - Nickelback
+    - The Flaming Lips
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which French duo had UK hits in 1998 with the songs 'Sexy Boy', 'Kelly
+      Watch The Stars' & 'All I Need'?
+    correct_answer: Air
+    incorrect_answers:
+    - Fire
+    - Earth
+    - Water
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who recorded the album called "Down to the Moon" in 1986?
+    correct_answer: Andreas Vollenweider
+    incorrect_answers:
+    - Jean-Michel Jarre
+    - Bing Crosby
+    - Enya
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which rock band released the album "The Bends" in March 1995?
+    correct_answer: Radiohead
+    incorrect_answers:
+    - Nirvana
+    - Coldplay
+    - U2
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band had hits in 1975 with the songs, 'One Of These Nights' &
+      'Lyin Eyes'?
+    correct_answer: The Eagles
+    incorrect_answers:
+    - Fools Gold
+    - The Doobie Brothers
+    - Fleetwood Mac
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the primary lyricist for Canadian progressive rock band Rush?
+    correct_answer: Neil Peart
+    incorrect_answers:
+    - Geddy Lee
+    - Alex Lifeson
+    - John Rutsey
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the relationship between the band members of American rock band
+      King of Leon?
+    correct_answer: Brothers & cousins
+    incorrect_answers:
+    - Childhood friends
+    - Former classmates
+    - Fraternity house members
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Where did the British Boy Band "Bros" come from?
+    correct_answer: Camberley
+    incorrect_answers:
+    - Guildford
+    - Aldershot
+    - Bagshot
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was David Bowie's real surname?
+    correct_answer: Jones
+    incorrect_answers:
+    - Johnson
+    - Edwards
+    - Carter
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Elton John hit starts with the line "When are you gonna come down"?
+    correct_answer: Goodbye Yellow Brick Road
+    incorrect_answers:
+    - Rocket Man
+    - Bennie and the Jets
+    - Crocodile Rock
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Ashley Frangipane performs under the stage name Halsey.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the real name of Canadian electronic music producer deadmau5?
+    correct_answer: Joel Zimmerman
+    incorrect_answers:
+    - Sonny Moore
+    - Adam Richard Wiles
+    - Thomas Wesley Pentz
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which year did "Caravan Palace" release their first album?
+    correct_answer: 2008
+    incorrect_answers:
+    - 2000
+    - 2015
+    - 2004
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When was the 3rd album "Notes from the Underground" of the band "Hollywood
+      Undead" released?
+    correct_answer: 2013
+    incorrect_answers:
+    - 2011
+    - 2014
+    - 2009
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: From which country does the piano originate?
+    correct_answer: Italy
+    incorrect_answers:
+    - Germany
+    - Austria
+    - France
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the title of ABBA`s first UK hit single?
+    correct_answer: Waterloo
+    incorrect_answers:
+    - Mamma Mia
+    - Fernando
+    - Dancing Queen
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists do NOT originate from France?
+    correct_answer: The Chemical Brothers
+    incorrect_answers:
+    - Air
+    - Justice
+    - Daft Punk
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The 1952 musical composition 4'33", composed by prolific American composer
+      John Cage, is mainly comprised of what sound?
+    correct_answer: Silence
+    incorrect_answers:
+    - Farts
+    - People talking
+    - Cricket chirps
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: According to a Beatles song, who kept her face in a jar by the door?
+    correct_answer: Eleanor Rigby
+    incorrect_answers:
+    - Loretta Martin
+    - Molly Jones
+    - Lady Madonna
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which artist or group did John Lennon consider "son(s) of the Beatles"?
+    correct_answer: Jeff Lynne's Electric Light Orchestra
+    incorrect_answers:
+    - The Rolling Stones
+    - Pink Floyd
+    - The Who
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists was NOT a member of the electronic music supergroup
+      Swedish House Mafia, which split up in 2013?
+    correct_answer: Alesso
+    incorrect_answers:
+    - Steve Angello
+    - Sebastian Ingrosso
+    - Axwell
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a song on The Beatles' 1968 self titled album,
+      also known as the White album?
+    correct_answer: Being For The Benefit Of Mr. Kite!
+    incorrect_answers:
+    - Why Don't We Do It in the Road?
+    - Everybody's Got Something to Hide Except Me and My Monkey
+    - The Continuing Story of Bungalow Bill
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which iconic album cover features the pulsar waves of CP 1919 placed
+      in the center of the cover?
+    correct_answer: Unknown Pleasures
+    incorrect_answers:
+    - The Dark Side of the Moon
+    - London Calling
+    - The Velvet Underground & Nico
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: EDM label Monstercat signs tracks instead of artists.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands was a featuring artist in Compton rapper Kendrick
+      Lamar's 2017 album, "DAMN."?
+    correct_answer: U2
+    incorrect_answers:
+    - Radiohead
+    - Coldplay
+    - Bon Jovi
+  hardQuestions:
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: The heavy metal band Black Sabbath hail from which English city?
+    correct_answer: Birmingham
+    incorrect_answers:
+    - Manchester
+    - London
+    - Newcastle-Upon-Tyne
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "What is the name of the song by Beyonc\xE9 and Alejandro Fern\xE1ndez
+      released in 2007?"
+    correct_answer: Amor Gitano
+    incorrect_answers:
+    - La ultima vez
+    - Rocket
+    - Hasta Dondes Estes
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which member of the English band "The xx" released their solo album
+      "In Colour" in 2015?
+    correct_answer: Jamie xx
+    incorrect_answers:
+    - Romy Madley Croft
+    - Oliver Sim
+    - Baria Qureshi
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the first Studio Album to be released on the Internet with a
+      "Pay-What-You-Want" price?
+    correct_answer: In Rainbows
+    incorrect_answers:
+    - The Help Album
+    - "Skrillex and Diplo Present Jack \xDC"
+    - Blackstar
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Electronic artists Boys Noize and Skrillex have collaborated and released
+      tracks under what name?
+    correct_answer: Dog Blood
+    incorrect_answers:
+    - "Jack \xDC"
+    - What So Not
+    - Noisia
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who recorded the1975 album 'Captain Fantastic and the Brown Dirt Cowboy'?
+    correct_answer: Elton John
+    incorrect_answers:
+    - John Denver
+    - Billy Joel
+    - Joe Cocker
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: In the Panic! At the Disco's song "Nothern Downpour", which lyric follows
+      'I know the world's a broken bone'.
+    correct_answer: '"So melt your headaches call it home"'
+    incorrect_answers:
+    - '"So sing your song until you''re home"'
+    - '"So let them know they''re on their own"'
+    - '"So start a fire in their cold stone"'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: In Kendrick Lamar's 2012 album, "Good Kid, M.A.A.D City", the album's
+      story takes place in which city?
+    correct_answer: Compton
+    incorrect_answers:
+    - Detroit
+    - New York
+    - Baltimore
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the rock band that Nobuo Uematsu formed that played
+      songs from various Final Fantasy games?
+    correct_answer: The Black Mages
+    incorrect_answers:
+    - The Final Fantasies
+    - The Espers
+    - The Rock Summoners
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which company did the animation for Peter Gabriel's Video Sledgehammer
+      (1986)?
+    correct_answer: Aardman Animations
+    incorrect_answers:
+    - HIT Entertainment
+    - Illumination Entertainment
+    - VIZ Media
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the stage name of New Zealand singer Phillipa "Pip" Brown?
+    correct_answer: Ladyhawke
+    incorrect_answers:
+    - Lorde
+    - Kesha
+    - Anika Moa
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The song "Mystery Train" was released by artist "Little Junior's Blue
+      Flames" in 1953.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?
+    correct_answer: '"A rainy Lithuanian / Is dancing as an Indian"'
+    incorrect_answers:
+    - '"Fly away on, my zephyr / I feel it more than ever"'
+    - '"And I liked the dimple in your chin / Your pale blue eyes"'
+    - '"You used to be so warm and affectionate...but now you''re quick to get into
+      your regret"'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of the following is NOT a real song from the band Thousand Foot
+      Krutch?
+    correct_answer: Limitless Fury
+    incorrect_answers:
+    - Let The Sparks Fly
+    - Down
+    - Give Up The Ghost
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these aliases has NOT been used by electronic musician Aphex
+      Twin?
+    correct_answer: Burial
+    incorrect_answers:
+    - Caustic Window
+    - Bradley Strider
+    - GAK
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who designed the album cover for True Romance, an album by Estelle?
+    correct_answer: Rebecca Sugar
+    incorrect_answers:
+    - Matt Burnett
+    - Ian Jones Quartey
+    - Ben Leven
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which album was released by Kanye West in 2013?
+    correct_answer: Yeezus
+    incorrect_answers:
+    - My Beautiful Dark Twisted Fantasy
+    - The Life of Pablo
+    - Watch the Throne
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the hip hop group Kanye West was a member of in
+      the late 90s?
+    correct_answer: The Go-Getters
+    incorrect_answers:
+    - The Jumpers
+    - The Kickstarters
+    - The Beat-Busters
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "Bj\xF6rk's \"Unison\" contains a sample of which Oval song?"
+    correct_answer: Aero Deck
+    incorrect_answers:
+    - Textuell
+    - Panorama
+    - Do While
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who had a 1981 hit with the song "Japanese Boy"?
+    correct_answer: Aneka
+    incorrect_answers:
+    - Toyah
+    - Sandra
+    - Madonna
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the last Aphex Twin album released before his decade-long hiatus?
+    correct_answer: Drukqs
+    incorrect_answers:
+    - Windowlicker
+    - Syro
+    - Collected Ambient Works 85-92
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "What is the English title of the vaporwave track \"\u30EA\u30B5\u30D5\u30E9\u30F3\u30AF420
+      / \u73FE\u4EE3\u306E\u30B3\u30F3\u30D4\u30E5\u30FC\" by Macintosh Plus (Vektroid)?"
+    correct_answer: Lisa Frank 420 / Modern Computing
+    incorrect_answers:
+    - Smoke Weed 420 / Everyday
+    - Make Your Move 420 / My Mind
+    - It's All In Your Head 420 / Understand
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: 'What year was Huun Huur Tu''s album Altai Sayan Tandy-Uula released? '
+    correct_answer: 2004
+    incorrect_answers:
+    - 1993
+    - 2006
+    - 2010
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: This album, now considered to be one of the greatest of all time, was
+      a commercial failure when it was released.
+    correct_answer: The Velvet Underground and Nico
+    incorrect_answers:
+    - Abbey Road
+    - Led Zeppelin IV
+    - Pet Sounds
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the cold-war singer who has a song in Grand Theft
+      Auto IV, and a wall landmark in Moscow for his memorial?
+    correct_answer: Viktor Tsoi
+    incorrect_answers:
+    - Jimi Hendrix
+    - Brian Jones
+    - Vladimir Vysotsky
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the name of the 2016 mixtape released by Venezuelan electronic
+      producer Arca?
+    correct_answer: "Entra\xF1as"
+    incorrect_answers:
+    - '&&&&&&'
+    - Sheep
+    - Xen
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these is NOT a song featured on the Lockjaw EP released in
+      2013 by Flume & Chet Faker?
+    correct_answer: Left Alone
+    incorrect_answers:
+    - What About Us
+    - This Song Is Not About A Girl
+    - Drop The Game
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs is NOT included in the Suicide Squad OST?
+    correct_answer: Skies on Fire - AC/DC
+    incorrect_answers:
+    - Heathens - Twenty One Pilots
+    - Without Me - Eminem
+    - Fortunate Son - Creedence Clearwater Revival
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What year was Min Yoongi from South Korea boy band "BTS" born in?
+    correct_answer: 1993
+    incorrect_answers:
+    - 1992
+    - 1995
+    - 1994
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which song in rapper Kanye West's album "The Life of Pablo" features
+      Rihanna?
+    correct_answer: Famous
+    incorrect_answers:
+    - Wolves
+    - Ultralight Beam
+    - Highlights
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: '"All the Boys" by Panic! At the Disco was released as a bonus track
+      on what album?'
+    correct_answer: Too Weird To Live, Too Rare To Die!
+    incorrect_answers:
+    - A Fever You Can't Sweat Out
+    - Death Of A Bachelor
+    - Vices & Virtues
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which year was the album "Floral Shoppe" by Macintosh Plus released?
+    correct_answer: 2011
+    incorrect_answers:
+    - 2014
+    - 2013
+    - 2012
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: 'Pete Townshend''s solo album, "White City: A Novel", is set in the
+      metropolitan area of Chicago.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who was the original drummer for The Beatles?
+    correct_answer: Tommy Moore
+    incorrect_answers:
+    - Ringo Starr
+    - Stuart Sutcliffe
+    - Pete Best
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs is not by Tatsuro Yamashita?
+    correct_answer: 'Lucky Lady Feel So Good '
+    incorrect_answers:
+    - Merry-Go Round
+    - Let's Dance Baby
+    - Love Talkin'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which band is the longest active band in the world with no breaks or
+      line-up changes?
+    correct_answer: U2
+    incorrect_answers:
+    - Radiohead
+    - Rush
+    - Rolling Stones
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs was released in 1996?
+    correct_answer: The Smashing Pumpkins - "1979"
+    incorrect_answers:
+    - Prince - "1999"
+    - James Blunt - "1973"
+    - David Bowie - "1984"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: The key of sharps does the key of G# minor contain?
+    correct_answer: 5
+    incorrect_answers:
+    - 3
+    - 7
+    - 0
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who wrote the song "You Know You Like It"?
+    correct_answer: AlunaGeorge
+    incorrect_answers:
+    - DJ Snake
+    - Steve Aoki
+    - Major Lazer
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which Death Grips album is the only one to feature a band member?
+    correct_answer: No Love Deep Web
+    incorrect_answers:
+    - Bottomless Pit
+    - The Money Store
+    - The Powers That B
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of Michael Jackson's albums sold the most copies?
+    correct_answer: Thriller
+    incorrect_answers:
+    - Dangerous
+    - Bad
+    - Off the Wall
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: On which Beatles album would you find the song 'Eleanor Rigby'?
+    correct_answer: Revolver
+    incorrect_answers:
+    - Help!
+    - Rubber Soul
+    - Abbey Road
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Pete Townshend collaborated with which famous guitarist for an event
+      at Brixton Academy in 1985?
+    correct_answer: David Gilmour
+    incorrect_answers:
+    - Jimmy Page
+    - Mark Knopfler
+    - Eric Clapton
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these artists did NOT remix the song "Faded" by Alan Walker?
+    correct_answer: Skrillex
+    incorrect_answers:
+    - "Ti\xEBsto"
+    - Slushii
+    - Dash Berlin
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The band STRFKR was also briefly known as Pyramiddd.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who won the 1989 Drum Corps International championships?
+    correct_answer: Santa Clara Vanguard
+    incorrect_answers:
+    - Blue Devils
+    - The Academy
+    - The Bluecoats
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who is a pioneer of "Minimal Music" in 1960s?
+    correct_answer: Steve Reich
+    incorrect_answers:
+    - Wolfgang Amadeus Mozart
+    - Brian Eno
+    - "Sigur R\xF3s"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which M83 album is the song "Midnight City" featured in?
+    correct_answer: Hurry Up, We're Dreaming
+    incorrect_answers:
+    - Saturdays = Youth
+    - Before the Dawn Heals Us
+    - Junk
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who was not in the band "The Smiths"?
+    correct_answer: Martin Chambers
+    incorrect_answers:
+    - Morrissey
+    - Andy Rourke
+    - Mike Joyce
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "How many members are there in the idol group \"\xB5's\"?"
+    correct_answer: 9
+    incorrect_answers:
+    - 48
+    - 6
+    - 3
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the British term for a 64th note?
+    correct_answer: Hemidemisemiquaver
+    incorrect_answers:
+    - Semihemidemisemiquaver
+    - Semiquaver
+    - Demisemiquaver
+  marathonQuestions:
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the artist of the recent new album the Uncanny Valley?
+    correct_answer: Perturbator
+    incorrect_answers:
+    - Carpenter Brut
+    - GOST
+    - 'Dan Terminus '
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the frontman of the band 30 Seconds to Mars?
+    correct_answer: Jared Leto
+    incorrect_answers:
+    - Gerard Way
+    - Matthew Bellamy
+    - Mike Shinoda
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these rappers is NOT a member of the rap group Wu-Tang
+      Clan?
+    correct_answer: Dr.Dre
+    incorrect_answers:
+    - Ol' Dirty Bastard
+    - GZA
+    - Method Man
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands is the oldest?
+    correct_answer: Pink Floyd
+    incorrect_answers:
+    - AC/DC
+    - Metallica
+    - Red Hot Chili Peppers
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What album did The Lumineers release in 2016?
+    correct_answer: Cleopatra
+    incorrect_answers:
+    - Winter
+    - The Lumineers
+    - Tracks From The Attic
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What album did Bon Iver release in 2016?
+    correct_answer: 22, A Million
+    incorrect_answers:
+    - Bon Iver, Bon Iver
+    - Blood Bank EP
+    - For Emma, Forever Ago
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of the following guitarists recorded an album as a member of the
+      Red Hot Chili Peppers?
+    correct_answer: Dave Navarro
+    incorrect_answers:
+    - 'Tom Morello '
+    - Billy Corgan
+    - Ed O'Brien
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was Radiohead's first album?
+    correct_answer: Pablo Honey
+    incorrect_answers:
+    - The Bends
+    - Kid A
+    - A Moon Shaped Pool
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: 3 members of 2 Live Crew were arrested for playing songs from their
+      album, As Nasty As They Wanna Be, live.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: The heavy metal band Black Sabbath hail from which English city?
+    correct_answer: Birmingham
+    incorrect_answers:
+    - Manchester
+    - London
+    - Newcastle-Upon-Tyne
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: "The country song  \u201CA Boy Named Sue\u201D was written by Shel Silverstein."
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these languages was NOT included in the 2016 song "Don't Mind"
+      by Kent Jones?
+    correct_answer: Portuguese
+    incorrect_answers:
+    - Japanese
+    - French
+    - Spanish
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "What is the name of the song by Beyonc\xE9 and Alejandro Fern\xE1ndez
+      released in 2007?"
+    correct_answer: Amor Gitano
+    incorrect_answers:
+    - La ultima vez
+    - Rocket
+    - Hasta Dondes Estes
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which former boy-band star released hit solo single "Angels" in 1997?
+    correct_answer: Robbie Williams
+    incorrect_answers:
+    - Justin Timberlake
+    - Harry Styles
+    - Gary Barlow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which band recorded the album "Parallel Lines"?
+    correct_answer: Blondie
+    incorrect_answers:
+    - Paramore
+    - Coldplay
+    - The Police
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: 'Finish these lyrics from the 2016 song "Panda" by Desiigner: "I got
+      broads in _______".'
+    correct_answer: Atlanta
+    incorrect_answers:
+    - Savannah
+    - Augusta
+    - Marietta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Twitch streamer is the vocalist for Red Vox?
+    correct_answer: Vinesauce
+    incorrect_answers:
+    - The8BitDrummer
+    - LIRIK
+    - Sodapoppin
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What year was Red Hot Chill Pepper's album "Californication" released?
+    correct_answer: 1999
+    incorrect_answers:
+    - 1997
+    - 2000
+    - 1992
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The band Muse released their first album, Showbiz, in what year?
+    correct_answer: 1999
+    incorrect_answers:
+    - 1998
+    - 2000
+    - 2001
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT the name of an album released by American rapper
+      Viper?
+    correct_answer: The Life of Pablo
+    incorrect_answers:
+    - Kill Urself My Man
+    - You'll Cowards Don't Even Smoke Crack
+    - Yo Wife Handcuffin' Me
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In 2006, which band released their debut album "A Fever You Can't Sweat
+      Out"?
+    correct_answer: Panic! At the Disco
+    incorrect_answers:
+    - Twenty One Pilots
+    - My Chemical Romance
+    - Fall Out Boy
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of Bastille?
+    correct_answer: Dan Smith
+    incorrect_answers:
+    - Will Farquarson
+    - Kyle Simmons
+    - Chris Wood
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a US and UK number 1 hit in 1962 with the instrumental, 'Telstar'?
+    correct_answer: The Tornados
+    incorrect_answers:
+    - The Ventures
+    - The Spotnicks
+    - The Tremeloes
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which member of the English band "The xx" released their solo album
+      "In Colour" in 2015?
+    correct_answer: Jamie xx
+    incorrect_answers:
+    - Romy Madley Croft
+    - Oliver Sim
+    - Baria Qureshi
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Feel Good Inc." by British band Gorillaz features which hip
+      hop group?
+    correct_answer: De La Soul
+    incorrect_answers:
+    - Public Enemy
+    - OutKast
+    - Cypress Hill
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs is NOT in The Beatles' album "Sgt. Pepper's Lonely
+      Hearts Club Band"?
+    correct_answer: Strawberry Fields Forever
+    incorrect_answers:
+    - Getting Better
+    - Fixing a Hole
+    - Lucy in the Sky with Diamonds
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country is singer Kyary Pamyu Pamyu from?
+    correct_answer: Japan
+    incorrect_answers:
+    - South Korea
+    - China
+    - Vietnam
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Toronto landmark was featured on the cover art of Canadian rapper
+      Drake's 2016 album "Views"?
+    correct_answer: CN Tower
+    incorrect_answers:
+    - Allan Gardens
+    - Union Station
+    - Prince of Wales Theatre
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of Silverchair?
+    correct_answer: Daniel Johns
+    incorrect_answers:
+    - Ben Gillies
+    - Chris Joannou
+    - 
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: May 16th of every year is known as __________ Day, named after a punk
+      band prominent in the 1990s.
+    correct_answer: Lagwagon
+    incorrect_answers:
+    - Goldfinger
+    - Less Than Jake
+    - Lit
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the first Studio Album to be released on the Internet with a
+      "Pay-What-You-Want" price?
+    correct_answer: In Rainbows
+    incorrect_answers:
+    - The Help Album
+    - "Skrillex and Diplo Present Jack \xDC"
+    - Blackstar
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the name of Pink Floyd's first studio album?
+    correct_answer: The Piper at the Gates of Dawn
+    incorrect_answers:
+    - Ummagumma
+    - More
+    - Atom Heart Mother
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Electronic artists Boys Noize and Skrillex have collaborated and released
+      tracks under what name?
+    correct_answer: Dog Blood
+    incorrect_answers:
+    - "Jack \xDC"
+    - What So Not
+    - Noisia
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which rap group released the album "Straight Outta Compton"?
+    correct_answer: N.W.A
+    incorrect_answers:
+    - Wu-Tang Clan
+    - Run-D.M.C.
+    - Beastie Boys
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Norwegian producer Kygo released a remix of the song "Sexual Healing"
+      by Marvin Gaye.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which American family band had a 1986 top 10 hit with the song 'Crush
+      On You'?
+    correct_answer: The Jets
+    incorrect_answers:
+    - DeBarge
+    - The Jacksons
+    - The Cover Girls
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which one of these songs did the group "Men At Work" NOT make?
+    correct_answer: Safety Dance
+    incorrect_answers:
+    - Down Under
+    - Who Can It Be Now?
+    - It's a Mistake
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Daft Punk originated in France.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: How many copies have Metallica album "Metallica" (A.K.A The Black Album)
+      sold worldwide (in Millions of Copies)?
+    correct_answer: 20.5
+    incorrect_answers:
+    - 19.5
+    - 22.5
+    - 25.5
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs is not on the "untitled" album by Led Zeppelin?
+    correct_answer: Celebration Day
+    incorrect_answers:
+    - Stairway to Heaven
+    - Black Dog
+    - Rock and Roll
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is not a single by Pink Floyd guitarist, David Gilmour?
+    correct_answer: Sunset Strip
+    incorrect_answers:
+    - Rattle That Lock
+    - Blue Light
+    - Arnold Layne
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who performed the guitar solo on Michael Jackson's hit "Beat It"?
+    correct_answer: Eddie Van Halen
+    incorrect_answers:
+    - Steve Vai
+    - Kirk Hammett
+    - Zakk Wylde
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which country does the band Rammstein hail from?
+    correct_answer: Germany
+    incorrect_answers:
+    - Austria
+    - Armenia
+    - Belgium
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: When was Gangnam Style uploaded to YouTube?
+    correct_answer: 2012
+    incorrect_answers:
+    - 2013
+    - 2014
+    - 2011
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which classical composer wrote the "Moonlight Sonata"?
+    correct_answer: Ludvig Van Beethoven
+    incorrect_answers:
+    - Chief Keef
+    - Wolfgang Amadeus Mozart
+    - Johannes Brahms
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who was the lead singer and frontman of rock band R.E.M?
+    correct_answer: Michael Stipe
+    incorrect_answers:
+    - Chris Martin
+    - Thom Yorke
+    - George Michael
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the founder and leader of industrial rock band, 'Nine Inch Nails'?
+    correct_answer: Trent Reznor
+    incorrect_answers:
+    - Marilyn Manson
+    - Robin Finck
+    - Josh Homme
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who recorded the1975 album 'Captain Fantastic and the Brown Dirt Cowboy'?
+    correct_answer: Elton John
+    incorrect_answers:
+    - John Denver
+    - Billy Joel
+    - Joe Cocker
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: In the Panic! At the Disco's song "Nothern Downpour", which lyric follows
+      'I know the world's a broken bone'.
+    correct_answer: '"So melt your headaches call it home"'
+    incorrect_answers:
+    - '"So sing your song until you''re home"'
+    - '"So let them know they''re on their own"'
+    - '"So start a fire in their cold stone"'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which song on Daft Punk's "Random Access Memories" features Pharrell
+      Williams?
+    correct_answer: Get Lucky
+    incorrect_answers:
+    - Doin' It Right
+    - Instant Crush
+    - The Game of Love
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which popular rock band has a one-armed drummer?
+    correct_answer: Def Leppard
+    incorrect_answers:
+    - The Beatles
+    - Lynyrd Skynyrd
+    - Foreigner
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: EDM producer Marshmello performs live wearing clothes and a marshmallow
+      mask of what colour?
+    correct_answer: White
+    incorrect_answers:
+    - Black
+    - Blue
+    - Yellow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: In Kendrick Lamar's 2012 album, "Good Kid, M.A.A.D City", the album's
+      story takes place in which city?
+    correct_answer: Compton
+    incorrect_answers:
+    - Detroit
+    - New York
+    - Baltimore
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Ellie Goulding's earliest album was named?
+    correct_answer: Lights
+    incorrect_answers:
+    - Halcyon
+    - Bright Lights
+    - Halcyon Days
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What French artist/band is known for playing on the midi instrument
+      "Launchpad"?
+    correct_answer: Madeon
+    incorrect_answers:
+    - 'Daft Punk '
+    - Disclosure
+    - David Guetta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these songs by Skrillex features Fatman Scoop as a side artist?
+    correct_answer: Recess
+    incorrect_answers:
+    - All is Fair in Love and Brostep
+    - Rock N Roll (Will Take You to the Mountain)
+    - Scary Monsters and Nice Sprites
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the subject of the 2014 song "CoCo" by American rapper O. T.
+      Genasis?
+    correct_answer: Cocaine
+    incorrect_answers:
+    - Conan O'Brien
+    - Cobalt(II) carbonate
+    - Coconut cream pie
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the rock band that Nobuo Uematsu formed that played
+      songs from various Final Fantasy games?
+    correct_answer: The Black Mages
+    incorrect_answers:
+    - The Final Fantasies
+    - The Espers
+    - The Rock Summoners
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Lift Your Spirit" is an album by which artist?'
+    correct_answer: Aloe Blacc
+    incorrect_answers:
+    - Lena Meyer-Landrut
+    - Stevie Wonder
+    - Taylor Swift
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Drink the Sea" is an album by which electronic music artist?'
+    correct_answer: The Glitch Mob
+    incorrect_answers:
+    - Avicii
+    - XXYYXX
+    - Flux Pavilion
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which company did the animation for Peter Gabriel's Video Sledgehammer
+      (1986)?
+    correct_answer: Aardman Animations
+    incorrect_answers:
+    - HIT Entertainment
+    - Illumination Entertainment
+    - VIZ Media
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: African-American performer Sammy Davis Jr. was known for losing which
+      part of his body in a car accident?
+    correct_answer: Left Eye
+    incorrect_answers:
+    - Right Ear
+    - Right Middle Finger
+    - Nose
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the stage name of New Zealand singer Phillipa "Pip" Brown?
+    correct_answer: Ladyhawke
+    incorrect_answers:
+    - Lorde
+    - Kesha
+    - Anika Moa
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a name of an album released by American rapper
+      Pitbull?
+    correct_answer: Welcome to Miami
+    incorrect_answers:
+    - Dale
+    - Global Warming
+    - Armando
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The song "Mystery Train" was released by artist "Little Junior's Blue
+      Flames" in 1953.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the first track on Kanye West's 808s & Heartbreak?
+    correct_answer: Say You Will
+    incorrect_answers:
+    - Welcome to Heartbreak
+    - Street Lights
+    - Heartless
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Rapper Snoop Dogg's real name is 'Cordozar Calvin Broadus, Jr.'.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had hits in the 70s with the songs "Lonely Boy" and "Never Let Her
+      Slip Away"?
+    correct_answer: Andrew Gold
+    incorrect_answers:
+    - Elton John
+    - Leo Sayer
+    - 'Barry White '
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT an album released by The Beatles?
+    correct_answer: The Wall
+    incorrect_answers:
+    - Abbey Road
+    - Magical Mystery Tour
+    - Revolver
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: How many members are there in the band Nirvana?
+    correct_answer: Three
+    incorrect_answers:
+    - Two
+    - Four
+    - Five
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which city did American rap producer DJ Khaled originate from?
+    correct_answer: Miami
+    incorrect_answers:
+    - New York
+    - Detroit
+    - Atlanta
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song by Swedish electronic musician Avicii samples the song "Something's
+      Got A Hold On Me" by Etta James?
+    correct_answer: Levels
+    incorrect_answers:
+    - Fade Into Darkness
+    - Silhouettes
+    - Seek Bromance
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which brass instrument has the lowest pitch in an orchestra?
+    correct_answer: Tuba
+    incorrect_answers:
+    - Trumpet
+    - Saxophone
+    - Trombone
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Disney character sings the song "A Dream is a Wish Your Heart
+      Makes"?
+    correct_answer: Cinderella
+    incorrect_answers:
+    - Belle
+    - Snow White
+    - Pocahontas
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the last song on the first Panic! At the Disco album?
+    correct_answer: Build God, Then We'll Talk
+    incorrect_answers:
+    - Nails for Breakfast, Tacks for Snacks
+    - I Write Sins Not Tragedies
+    - Lying Is The Most Fun A Girl Can Have Without Taking Her Clothes Off
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who performed "I Took A Pill In Ibiza"?
+    correct_answer: Mike Posner
+    incorrect_answers:
+    - Avicii
+    - Robbie Williams
+    - Harry Styles
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The "K" in "K-Pop" stands for which word?
+    correct_answer: Korean
+    incorrect_answers:
+    - Kenyan
+    - Kazakhstan
+    - Kuwaiti
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In an orchestra, what is the lowest member of the brass family?
+    correct_answer: Tuba
+    incorrect_answers:
+    - Trombone
+    - Contrabass
+    - Bassoon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the best selling album of 2015?
+    correct_answer: Adele, 25
+    incorrect_answers:
+    - Fetty Wap, Fetty Wap
+    - Taylor Swift, 1989
+    - Justin Bieber, Purpose
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Typically, how many keys are on a piano?
+    correct_answer: 88
+    incorrect_answers:
+    - 24
+    - 12
+    - 96
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Soulja Boy's 'Crank That' won a Grammy for Best Rap Song in 2007.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Sting, the lead vocalist of The Police, primarily plays what instrument?
+    correct_answer: Bass Guitar
+    incorrect_answers:
+    - Drums
+    - Guitar
+    - Keyboards
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country does the electronic music duo "The Knife" originate from?
+    correct_answer: Sweden
+    incorrect_answers:
+    - Finland
+    - Denmark
+    - Norway
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of the following bands is Tom DeLonge not a part of?
+    correct_answer: +44
+    incorrect_answers:
+    - Box Car Racer
+    - Blink-182
+    - Angels & Airwaves
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: '"Make You Feel My Love" was originally written and performed by which
+      singer-songwriter?'
+    correct_answer: Bob Dylan
+    incorrect_answers:
+    - Elvis
+    - Adele
+    - Billy Joel
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The music group Daft Punk got their name from a negative review they
+      recieved.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Whose signature guitar technique is called the "windmill"?
+    correct_answer: Pete Townshend
+    incorrect_answers:
+    - Jimmy Page
+    - Eddie Van Halen
+    - Jimi Hendrix
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?
+    correct_answer: '"A rainy Lithuanian / Is dancing as an Indian"'
+    incorrect_answers:
+    - '"Fly away on, my zephyr / I feel it more than ever"'
+    - '"And I liked the dimple in your chin / Your pale blue eyes"'
+    - '"You used to be so warm and affectionate...but now you''re quick to get into
+      your regret"'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Kanye West at 2009 VMA's interrupted which celebrity?
+    correct_answer: Taylor Swift
+    incorrect_answers:
+    - MF DOOM
+    - Beyonce
+    - Beck
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The 2016 song "Starboy" by Canadian singer The Weeknd features which
+      prominent electronic artist?
+    correct_answer: Daft Punk
+    incorrect_answers:
+    - deadmau5
+    - Disclosure
+    - DJ Shadow
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: 'Who was featured in the song "Words" by Feint? '
+    correct_answer: Laura Brehm
+    incorrect_answers:
+    - 'Anna Yvette '
+    - Danyka Nadeau
+    - Veela
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who had a 1969 top 5 hit with the song,  'A Boy Named Sue'?
+    correct_answer: Johnny Cash
+    incorrect_answers:
+    - Bob Dylan
+    - Willie Nelson
+    - Kris Kristofferson
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In 2015, David Hasselhof released a single called...
+    correct_answer: True Survivor
+    incorrect_answers:
+    - True Fighter
+    - Real Kung-Fury
+    - Real Warrior
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What animal is featured on the cover of English electronic music group
+      The Prodigy's album, "The Fat of the Land"?
+    correct_answer: Crab
+    incorrect_answers:
+    - Fox
+    - Elephant
+    - Tiger
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these Pink Floyd albums were also a movie?
+    correct_answer: The Wall
+    incorrect_answers:
+    - The Dark Side of the Moon
+    - Wish You Were Here
+    - Animals
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs did Jimi Hendrix cover?
+    correct_answer: All of these songs
+    incorrect_answers:
+    - Sgt. Pepper's Lonely Hearts Club Band
+    - All Along the Watchtower
+    - House of the Rising Sun
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Ringo Starr of The Beatles mainly played what instrument?
+    correct_answer: Drums
+    incorrect_answers:
+    - Bass
+    - Guitar
+    - Piano
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Where does the Mac part of the name Fleetwood Mac come from?
+    correct_answer: John McVie
+    incorrect_answers:
+    - Christine McVie
+    - Mac McAnally
+    - David Tennant
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of the following is NOT a real song from the band Thousand Foot
+      Krutch?
+    correct_answer: Limitless Fury
+    incorrect_answers:
+    - Let The Sparks Fly
+    - Down
+    - Give Up The Ghost
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: '"The Division Bell" is the final album of the progressive rock band
+      Pink Floyd.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the stage name of English female rapper Mathangi Arulpragasam,
+      who is known for the song "Paper Planes"?
+    correct_answer: M.I.A.
+    incorrect_answers:
+    - K.I.A.
+    - C.I.A.
+    - A.I.A.
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is not an Ed Sheeran album?
+    correct_answer: '-'
+    incorrect_answers:
+    - +
+    - X
+    - "\xF7"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The Who's eponymous line, "Teenage Wasteland", appears in which of their
+      songs?
+    correct_answer: Baba O' Riley
+    incorrect_answers:
+    - The Seeker
+    - Won't Get Fooled Again
+    - Pinball Wizard
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Beatle led the way across the zebra crossing on the Abbey Road
+      album cover?
+    correct_answer: John
+    incorrect_answers:
+    - Paul
+    - George
+    - Ringo
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: American rapper Dr. Dre actually has a Ph.D. doctorate.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: '"Twenty One Pilots" made the song "The Motion" featuring Sampha.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the lead singer of The Lumineers?
+    correct_answer: Wesley Schultz
+    incorrect_answers:
+    - Jeremiah Fraites
+    - Jay Van Dyke
+    - Neyla Pekarek
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band released songs such as "Electric Feel", "Kids", and "Time
+      to Pretend"?
+    correct_answer: MGMT
+    incorrect_answers:
+    - Passion Pit
+    - Phoenix
+    - Franz Ferdinand
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these aliases has NOT been used by electronic musician Aphex
+      Twin?
+    correct_answer: Burial
+    incorrect_answers:
+    - Caustic Window
+    - Bradley Strider
+    - GAK
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who designed the album cover for True Romance, an album by Estelle?
+    correct_answer: Rebecca Sugar
+    incorrect_answers:
+    - Matt Burnett
+    - Ian Jones Quartey
+    - Ben Leven
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which album was released by Kanye West in 2013?
+    correct_answer: Yeezus
+    incorrect_answers:
+    - My Beautiful Dark Twisted Fantasy
+    - The Life of Pablo
+    - Watch the Throne
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the hip hop group Kanye West was a member of in
+      the late 90s?
+    correct_answer: The Go-Getters
+    incorrect_answers:
+    - The Jumpers
+    - The Kickstarters
+    - The Beat-Busters
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: According to their 1974 hit, what were Brownsville Station doing "In
+      The Boys' Room"?
+    correct_answer: Smokin'
+    incorrect_answers:
+    - Hangin'
+    - Lovin'
+    - Peein'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: EDM record label Monstercat is based in which country?
+    correct_answer: Canada
+    incorrect_answers:
+    - United States
+    - Australia
+    - United Kingdom
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "Bj\xF6rk's \"Unison\" contains a sample of which Oval song?"
+    correct_answer: Aero Deck
+    incorrect_answers:
+    - Textuell
+    - Panorama
+    - Do While
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a 1976 hit with the song 'You Make Me Feel Like Dancing'?
+    correct_answer: Leo Sayer
+    incorrect_answers:
+    - Elton John
+    - Billy Joel
+    - Andy Gibb
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What's the most common time signature for rock songs?
+    correct_answer: 4/4
+    incorrect_answers:
+    - 1/2
+    - 8/12
+    - 2/4
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which country does the power metal band "Sabaton" originate from?
+    correct_answer: Sweden
+    incorrect_answers:
+    - Germany
+    - United States
+    - Finland
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the frontman's name of the metal band Megadeth?
+    correct_answer: Dave Mustaine
+    incorrect_answers:
+    - Rob Halford
+    - Vince Neil
+    - James Hetfield
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which member of the Foo Fighters was previously the drummer for Nirvana?
+    correct_answer: Dave Grohl
+    incorrect_answers:
+    - Taylor Hawkins
+    - Nate Mendel
+    - Chris Shiflett
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these is NOT the name of an album released by English singer-songwriter
+      Adele?
+    correct_answer: 12
+    incorrect_answers:
+    - 19
+    - 21
+    - 25
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Johnny Cash did a cover of this song written by lead singer of Nine
+      Inch Nails, Trent Reznor.
+    correct_answer: Hurt
+    incorrect_answers:
+    - Closer
+    - A Warm Place
+    - Big Man with a Gun
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Beatles album does NOT feature any of the band members on it's
+      cover?
+    correct_answer: The Beatles (White Album)
+    incorrect_answers:
+    - Rubber Soul
+    - Abbey Road
+    - Magical Mystery Tour
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What musician made the song "Fuckin` Perfect" in 2010?
+    correct_answer: P!nk
+    incorrect_answers:
+    - Mitis
+    - Adam lambert
+    - Koven
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of Green Day?
+    correct_answer: Billie Joe Armstrong
+    incorrect_answers:
+    - Mike Dirnt
+    - Sean Hughes
+    - "Tr\xE9 Cool"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which rapper had an album that went double platinum with no features?
+    correct_answer: J. Cole
+    incorrect_answers:
+    - Kendrick Lamar
+    - Drake
+    - Big Sean
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Moby, an American DJ, singer, and musician, achieved worldwide success
+      for the 1999 release of which of the following albums?
+    correct_answer: Play
+    incorrect_answers:
+    - Everything Is Wrong
+    - Moby
+    - 18
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who had a 1981 hit with the song "Japanese Boy"?
+    correct_answer: Aneka
+    incorrect_answers:
+    - Toyah
+    - Sandra
+    - Madonna
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which year was the Megadeth album "Peace Sells... but Who's Buying?"
+      released?
+    correct_answer: 1986
+    incorrect_answers:
+    - 1979
+    - 1987
+    - 1986
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the last Aphex Twin album released before his decade-long hiatus?
+    correct_answer: Drukqs
+    incorrect_answers:
+    - Windowlicker
+    - Syro
+    - Collected Ambient Works 85-92
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Nick Mason is the only member to appear on every Pink Floyd album.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "What is the English title of the vaporwave track \"\u30EA\u30B5\u30D5\u30E9\u30F3\u30AF420
+      / \u73FE\u4EE3\u306E\u30B3\u30F3\u30D4\u30E5\u30FC\" by Macintosh Plus (Vektroid)?"
+    correct_answer: Lisa Frank 420 / Modern Computing
+    incorrect_answers:
+    - Smoke Weed 420 / Everyday
+    - Make Your Move 420 / My Mind
+    - It's All In Your Head 420 / Understand
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Pink Floyd made this song for their previous lead singer Syd Barrett.
+    correct_answer: Shine On You Crazy Diamond
+    incorrect_answers:
+    - Wish You Were Here
+    - Have A Cigar
+    - Welcome to the Machine
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: 'What year was Huun Huur Tu''s album Altai Sayan Tandy-Uula released? '
+    correct_answer: 2004
+    incorrect_answers:
+    - 1993
+    - 2006
+    - 2010
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these songs by artist Eminem contain the lyric "Nice to meet
+      you. Hi, my name is... I forgot my name!"?
+    correct_answer: Rain Man
+    incorrect_answers:
+    - Without Me
+    - Kim
+    - Square Dance
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of the main character from the music video of "Shelter"
+      by Porter Robinson and A-1 Studios?
+    correct_answer: Rin
+    incorrect_answers:
+    - Rem
+    - Ren
+    - Ram
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which member of "The Beatles" narrated episodes of "Thomas the Tank
+      Engine"?
+    correct_answer: Ringo Starr
+    incorrect_answers:
+    - George Harrison
+    - John Lennon
+    - Paul McCartney
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Arcade Fire's 'The Suburbs' won the Album of the Year award in the 2011
+      Grammys.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: This album, now considered to be one of the greatest of all time, was
+      a commercial failure when it was released.
+    correct_answer: The Velvet Underground and Nico
+    incorrect_answers:
+    - Abbey Road
+    - Led Zeppelin IV
+    - Pet Sounds
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song in Drake's "Views" features Future?
+    correct_answer: Grammys
+    incorrect_answers:
+    - Too Good
+    - Faithful
+    - Pop Style
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Pink Guy's debut album was "Pink Season".
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: '"The Singing Cowboy" Gene Autry is credited with the first recording
+      for all but which classic Christmas jingle?'
+    correct_answer: White Christmas
+    incorrect_answers:
+    - Frosty the Snowman
+    - Rudolph the Red-Nosed Reindeer
+    - Here Comes Santa Claus
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was the name of singer Frank Ocean's second studio album, which
+      was released on August 20, 2016?
+    correct_answer: Blonde
+    incorrect_answers:
+    - Brunette
+    - Black
+    - Burgundy
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which artist released the 2012 single "Harlem Shake", which was used
+      in numerous YouTube videos in 2013?
+    correct_answer: Baauer
+    incorrect_answers:
+    - RL Grime
+    - NGHTMRE
+    - Flosstradamus
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was Rage Against the Machine's debut album?
+    correct_answer: Rage Against the Machine
+    incorrect_answers:
+    - Evil Empire
+    - Bombtrack
+    - The Battle Of Los Angeles
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is Brian May's guitar called?
+    correct_answer: Red Special
+    incorrect_answers:
+    - Blue Special
+    - Green Special
+    - Yellow Special
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which album by American rapper Kanye West contained songs such as "Love
+      Lockdown", "Paranoid" and "Heartless"?
+    correct_answer: 808s & Heartbreak
+    incorrect_answers:
+    - Late Registration
+    - The Life of Pablo
+    - Graduation
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Queen song was covered by Brittany Murphy in the 2006 film "Happy
+      Feet"?
+    correct_answer: Somebody to Love
+    incorrect_answers:
+    - Under Pressure
+    - Flash
+    - Bohemian Rhapsody
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Kanye West's "Gold Digger" featured which Oscar-winning actor?
+    correct_answer: Jamie Foxx
+    incorrect_answers:
+    - Alec Baldwin
+    - Dwayne Johnson
+    - ' Bruce Willis'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What was the name of the cold-war singer who has a song in Grand Theft
+      Auto IV, and a wall landmark in Moscow for his memorial?
+    correct_answer: Viktor Tsoi
+    incorrect_answers:
+    - Jimi Hendrix
+    - Brian Jones
+    - Vladimir Vysotsky
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the name of the 2016 mixtape released by Venezuelan electronic
+      producer Arca?
+    correct_answer: "Entra\xF1as"
+    incorrect_answers:
+    - '&&&&&&'
+    - Sheep
+    - Xen
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these is NOT a song featured on the Lockjaw EP released in
+      2013 by Flume & Chet Faker?
+    correct_answer: Left Alone
+    incorrect_answers:
+    - What About Us
+    - This Song Is Not About A Girl
+    - Drop The Game
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: 'Musical artist, Future, collaborated with Kendrick Lamar for the song:
+      "Mask Off".'
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which song is not by TheFatRat?
+    correct_answer: Ascent
+    incorrect_answers:
+    - Monody
+    - Windfall
+    - Infinite Power!
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Iron Maiden album did the song "Dream of Mirrors" feature in?
+    correct_answer: Brave New World
+    incorrect_answers:
+    - Dance of Death
+    - A Matter of Life and Death
+    - Somewhere in Time
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the name of Finnish DJ Darude's hit single released in October
+      1999?
+    correct_answer: Sandstorm
+    incorrect_answers:
+    - Dust Devil
+    - Sirocco
+    - Khamsin
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands are NOT from Australia?
+    correct_answer: The Naked and Famous
+    incorrect_answers:
+    - Cut Copy
+    - Empire of the Sun
+    - Tame Impala
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: From which album is the Gorillaz song, "On Melancholy Hill" featured
+      in?
+    correct_answer: Plastic Beach
+    incorrect_answers:
+    - Demon Days
+    - Humanz
+    - The Fall
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In the  Rossini opera, what was the name of 'The Barber of Seville'?
+    correct_answer: Figaro
+    incorrect_answers:
+    - Angelo
+    - Fernando
+    - Dave
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When did The Beatles release the LP "Please Please Me"?
+    correct_answer: 1963
+    incorrect_answers:
+    - 1970
+    - 1960
+    - 1969
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the vocalist and frontman of rock band "Guns N' Roses"?
+    correct_answer: Axl Rose
+    incorrect_answers:
+    - Kurt Cobain
+    - Slash
+    - Bono
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Canadian reggae musician had a 1993 hit with the song 'Informer'?
+    correct_answer: Snow
+    incorrect_answers:
+    - Rain
+    - Hail
+    - Sleet
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: "Which singer was featured in Jack \xDC (Skrillex & Diplo)'s 2015 song
+      'Where Are \xDC Now'?"
+    correct_answer: Justin Bieber
+    incorrect_answers:
+    - Selena Gomez
+    - Ellie Goulding
+    - The Weeknd
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is the name of an American psychedelic rock band formed
+      in 2002 by Benjamin Goldwasser and Andrew VanWyngarden?
+    correct_answer: MGMT
+    incorrect_answers:
+    - MSTRKRFT
+    - STRFKR
+    - SBTRKT
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of French electronic music producer Madeon's 2015 debut
+      studio album?
+    correct_answer: Adventure
+    incorrect_answers:
+    - The City
+    - Icarus
+    - Pop Culture
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is not a wind instrument?
+    correct_answer: Viola
+    incorrect_answers:
+    - Oboe
+    - Trombone
+    - Duduk
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band had hits in 1972 with the songs "Baby I'm A Want You", "Everything
+      I Own" and "The Guitar Man"
+    correct_answer: Bread
+    incorrect_answers:
+    - America
+    - Chicago
+    - Smokie
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: '"Some people call me the space cowboy" is the first line from what
+      song?'
+    correct_answer: The Joker
+    incorrect_answers:
+    - Fandango
+    - Take The Money and Run
+    - Fly Like an Eagle
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who wrote the musical composition, "Rhapsody In Blue"?
+    correct_answer: George Gershwin
+    incorrect_answers:
+    - Irving Berlin
+    - Duke Ellington
+    - Johnny Mandel
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these Rammstein songs has two official music videos?
+    correct_answer: Du Riechst So Gut
+    incorrect_answers:
+    - Du Hast
+    - Benzin
+    - Mein Teil
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs is NOT included in the Suicide Squad OST?
+    correct_answer: Skies on Fire - AC/DC
+    incorrect_answers:
+    - Heathens - Twenty One Pilots
+    - Without Me - Eminem
+    - Fortunate Son - Creedence Clearwater Revival
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What collaborative album was released by Kanye West and Jay-Z in 2011?
+    correct_answer: Watch the Throne
+    incorrect_answers:
+    - Distant Relatives
+    - What a Time to be Alive
+    - Unfinished Business
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What year was Min Yoongi from South Korea boy band "BTS" born in?
+    correct_answer: 1993
+    incorrect_answers:
+    - 1992
+    - 1995
+    - 1994
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: "In the song \u201CThe Ultimate Showdown of Ultimate Destiny,\u201D
+      who is the only one to survive the battle?"
+    correct_answer: Mr. Rogers
+    incorrect_answers:
+    - Batman
+    - Chuck Norris
+    - Godzilla
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which English guitarist has the nickname "Slowhand"?
+    correct_answer: Eric Clapton
+    incorrect_answers:
+    - Mark Knopfler
+    - Jeff Beck
+    - Jimmy Page
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Irish musician Hozier released a music track in 2013 titled, "Take Me
+      to ______"
+    correct_answer: Church
+    incorrect_answers:
+    - Mosque
+    - Synagogue
+    - Temple
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Scottish producer Calvin Harris is from the town of Dumfries, Scotland.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which one of these artists appears in the album Deltron 3030?
+    correct_answer: Dan the Automater
+    incorrect_answers:
+    - Lamarr Kendrick
+    - Danger Mouse
+    - CeeLo Green
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The song "Stronger Than You" is a single by Estelle, who played Garnet
+      in Steven Universe.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Twin Size Mattress" was written by which band?
+    correct_answer: The Front Bottoms
+    incorrect_answers:
+    - Twenty One Pilots
+    - The Wonder Years
+    - The Smith Street Band
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which song in rapper Kanye West's album "The Life of Pablo" features
+      Rihanna?
+    correct_answer: Famous
+    incorrect_answers:
+    - Wolves
+    - Ultralight Beam
+    - Highlights
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: '"All the Boys" by Panic! At the Disco was released as a bonus track
+      on what album?'
+    correct_answer: Too Weird To Live, Too Rare To Die!
+    incorrect_answers:
+    - A Fever You Can't Sweat Out
+    - Death Of A Bachelor
+    - Vices & Virtues
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The song "Caramelldansen" is commonly mistaken as a Japanese song, what
+      language is the song actually sung in?
+    correct_answer: Swedish
+    incorrect_answers:
+    - Hungarian
+    - Finnish
+    - Chinese
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What genre of EDM is the Dutch DJ, musician, and remixer Armin van Buuren
+      most well-known for?
+    correct_answer: Trance
+    incorrect_answers:
+    - House
+    - Drum and Bass
+    - Dubstep
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Madonna's song "Hung Up" includes a piece from which popular 70s song?
+    correct_answer: Gimmie! Gimmie! Gimme! (A Man After Midnight)
+    incorrect_answers:
+    - Staying Alive
+    - Night Fever
+    - The Chain
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the frontman of Muse?
+    correct_answer: Matt Bellamy
+    incorrect_answers:
+    - Dominic Howard
+    - Thom Yorke
+    - Jonny Greenwood
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which year was the album "Floral Shoppe" by Macintosh Plus released?
+    correct_answer: 2011
+    incorrect_answers:
+    - 2014
+    - 2013
+    - 2012
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which Nirvana album had a naked baby on the cover?
+    correct_answer: Nevermind
+    incorrect_answers:
+    - Bleach
+    - In Utero
+    - Incesticide
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Cryoshell, known for "Creeping in My Soul" did the advertising music
+      for what Lego Theme?
+    correct_answer: Bionicle
+    incorrect_answers:
+    - Hero Factory
+    - Ben 10 Alien Force
+    - Star Wars
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: 'Pete Townshend''s solo album, "White City: A Novel", is set in the
+      metropolitan area of Chicago.'
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the name of the album released in 2014 by American band Maroon
+      5?
+    correct_answer: V
+    incorrect_answers:
+    - X
+    - III
+    - IV
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: According to the American rapper Nelly, what should you do when its
+      hot in here?
+    correct_answer: Take off all your clothes
+    incorrect_answers:
+    - Take a cool shower
+    - Drink some water
+    - Go skinny dipping
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who was the original drummer for The Beatles?
+    correct_answer: Tommy Moore
+    incorrect_answers:
+    - Ringo Starr
+    - Stuart Sutcliffe
+    - Pete Best
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: "Which famous rapper is featured in Jack \xDC (Skrillex and Diplo)'s
+      2015 single called \"Febreze\"?"
+    correct_answer: 2 Chainz
+    incorrect_answers:
+    - Kendrick Lamar
+    - Future
+    - Fatman Scoop
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT the name of an album released by Miami-based producer
+      DJ Khaled?
+    correct_answer: Don't Ever Play Yourself
+    incorrect_answers:
+    - Major Key
+    - Suffering From Success
+    - I Changed A Lot
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the title of Sakamoto Kyu's song "Ue o Muite Arukou" (I Look
+      Up As I Walk) changed to in the United States?
+    correct_answer: Sukiyaki
+    incorrect_answers:
+    - Takoyaki
+    - Sushi
+    - Oden
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which famous 90's rap album is commonly referred to as "The Bible of
+      Hip Hop"?
+    correct_answer: Illmatic
+    incorrect_answers:
+    - The Low End Theory
+    - The Chronic
+    - Enter The Wu-Tang (36 Chambers)
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What was Daft Punk's first studio album?
+    correct_answer: Homework
+    incorrect_answers:
+    - Discovery
+    - Random Access Memories
+    - Human After All
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The song Scatman's World was released after Scatman (Ski-Ba-Bop-Ba-Dop-Bop).
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs is not by Tatsuro Yamashita?
+    correct_answer: 'Lucky Lady Feel So Good '
+    incorrect_answers:
+    - Merry-Go Round
+    - Let's Dance Baby
+    - Love Talkin'
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of these is the name of a song by Tears for Fears?
+    correct_answer: Shout
+    incorrect_answers:
+    - Scream
+    - Yell
+    - Shriek
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: How many members are in the Japanese rock band SCANDAL?
+    correct_answer: 4
+    incorrect_answers:
+    - 5
+    - 2
+    - 18
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When did Tame Impala release their second album?
+    correct_answer: 2012
+    incorrect_answers:
+    - 2015
+    - 2010
+    - 1967
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Saul Hudson (Slash) of the band Guns N' Roses is known for playing what
+      type of guitar?
+    correct_answer: Les Paul Standard
+    incorrect_answers:
+    - Fender Stratocaster
+    - LsL Mongrel
+    - Gretsch Falcon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which singer was featured in Swedish producer Avicii's song "Wake Me
+      Up"?
+    correct_answer: Aloe Blacc
+    incorrect_answers:
+    - John Legend
+    - CeeLo Green
+    - Pharrell Williams
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which band is the longest active band in the world with no breaks or
+      line-up changes?
+    correct_answer: U2
+    incorrect_answers:
+    - Radiohead
+    - Rush
+    - Rolling Stones
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who had a 1973 hit with the song 'Hocus Pocus'?
+    correct_answer: Focus
+    incorrect_answers:
+    - Pilot
+    - Rush
+    - AC/DC
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: The music video to The Buggle's "Video Killed the Radio Star" was the
+      first music video to broadcast on MTV.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these songs was released in 1996?
+    correct_answer: The Smashing Pumpkins - "1979"
+    incorrect_answers:
+    - Prince - "1999"
+    - James Blunt - "1973"
+    - David Bowie - "1984"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: The key of sharps does the key of G# minor contain?
+    correct_answer: 5
+    incorrect_answers:
+    - 3
+    - 7
+    - 0
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who wrote the song "You Know You Like It"?
+    correct_answer: AlunaGeorge
+    incorrect_answers:
+    - DJ Snake
+    - Steve Aoki
+    - Major Lazer
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: The cover of The Beatles album "Abbey Road" featured a Volkswagen Beetle
+      in the background.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the Pink Floyd song "Shine On You Crazy Diamond" written about?
+    correct_answer: Syd Barrett
+    incorrect_answers:
+    - John Lennon
+    - David Gilmour
+    - Floyd
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which Death Grips album is the only one to feature a band member?
+    correct_answer: No Love Deep Web
+    incorrect_answers:
+    - Bottomless Pit
+    - The Money Store
+    - The Powers That B
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: A Saxophone is a brass instrument.
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Michael Jackson wrote The Simpsons song "Do the Bartman".
+    correct_answer: False
+    incorrect_answers:
+    - True
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the best selling artist of all time?
+    correct_answer: The Beatles
+    incorrect_answers:
+    - Michael Jackson
+    - Elton John
+    - Elvis Presley
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: According to a song by Belinda Carlisle, Heaven is a place on what?
+    correct_answer: Earth
+    incorrect_answers:
+    - Venus
+    - Mars
+    - Uranus
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: For his performance at ComplexCon 2016 in Long Beach, California, Skrillex
+      revived his "Mothership" set piece for one night only.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is rapper Drake's real name?
+    correct_answer: Aubrey Graham
+    incorrect_answers:
+    - Shaun Carter
+    - Dwayne Carter
+    - Andre Young
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: The Red Hot Chili Pepper song "Give It Away" is from what album?
+    correct_answer: Blood Sugar Sex Magik
+    incorrect_answers:
+    - One Hot Minute
+    - By the Way
+    - Stadium Arcadium
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: How many studio albums have the duo Daft Punk released?
+    correct_answer: 4
+    incorrect_answers:
+    - 1
+    - 5
+    - 2
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which artist collaborated with American DJ Dillon Francis to release
+      the song 2016 "Need You"?
+    correct_answer: NGHTMRE
+    incorrect_answers:
+    - LOUDPVCK
+    - KRNE
+    - DVBBS
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the name of the 2016 studio album by the French electronic music
+      duo Justice?
+    correct_answer: Woman
+    incorrect_answers:
+    - Randy
+    - Safe and Sound
+    - Pleasure
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: From which country did the song "Gangnam Style" originate from?
+    correct_answer: South Korea
+    incorrect_answers:
+    - Japan
+    - North Korea
+    - China
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of Michael Jackson's albums sold the most copies?
+    correct_answer: Thriller
+    incorrect_answers:
+    - Dangerous
+    - Bad
+    - Off the Wall
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: On which Beatles album would you find the song 'Eleanor Rigby'?
+    correct_answer: Revolver
+    incorrect_answers:
+    - Help!
+    - Rubber Soul
+    - Abbey Road
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists has NOT been a member of dancehall group Major
+      Lazer?
+    correct_answer: Skrillex
+    incorrect_answers:
+    - Diplo
+    - Jillionaire
+    - Walshy Fire
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which 80s band is fronted by singer/guitarist Robert Smith?
+    correct_answer: The Cure
+    incorrect_answers:
+    - The Smiths
+    - Echo & the Bunnymen
+    - New Order
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Pete Townshend collaborated with which famous guitarist for an event
+      at Brixton Academy in 1985?
+    correct_answer: David Gilmour
+    incorrect_answers:
+    - Jimmy Page
+    - Mark Knopfler
+    - Eric Clapton
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of the band Coldplay?
+    correct_answer: Chris Martin
+    incorrect_answers:
+    - Chris Isaak
+    - Chris Wallace
+    - Chris Connelly
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which of these artists did NOT remix the song "Faded" by Alan Walker?
+    correct_answer: Skrillex
+    incorrect_answers:
+    - "Ti\xEBsto"
+    - Slushii
+    - Dash Berlin
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: hard
+    question: The band STRFKR was also briefly known as Pyramiddd.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In what film was the Michael Jackson song "Will You Be There" featured?
+    correct_answer: Free Willy
+    incorrect_answers:
+    - Sleepless in Seattle
+    - Men in Black
+    - Bad Boys
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a song by Pegboard Nerds?
+    correct_answer: WiFi Tears
+    incorrect_answers:
+    - Swamp Thing
+    - Emoji
+    - BAMF
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band released the album "Sonic Highways" in 2014?
+    correct_answer: Foo Fighters
+    incorrect_answers:
+    - Coldplay
+    - Nickelback
+    - The Flaming Lips
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which of the following songs did Elton John perform following Princess
+      Diane's passing?
+    correct_answer: Candles in the Wind
+    incorrect_answers:
+    - I Guess That's Why They Call It The Blues
+    - Your Song
+    - Island Girl
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which French duo had UK hits in 1998 with the songs 'Sexy Boy', 'Kelly
+      Watch The Stars' & 'All I Need'?
+    correct_answer: Air
+    incorrect_answers:
+    - Fire
+    - Earth
+    - Water
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: What is the best selling album of all time from 1976 to 2018?
+    correct_answer: Thriller
+    incorrect_answers:
+    - Back in Black
+    - Abbey Road
+    - The Dark Side of the Moon
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who won the 1989 Drum Corps International championships?
+    correct_answer: Santa Clara Vanguard
+    incorrect_answers:
+    - Blue Devils
+    - The Academy
+    - The Bluecoats
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who recorded the album called "Down to the Moon" in 1986?
+    correct_answer: Andreas Vollenweider
+    incorrect_answers:
+    - Jean-Michel Jarre
+    - Bing Crosby
+    - Enya
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who is a pioneer of "Minimal Music" in 1960s?
+    correct_answer: Steve Reich
+    incorrect_answers:
+    - Wolfgang Amadeus Mozart
+    - Brian Eno
+    - "Sigur R\xF3s"
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which rock band released the album "The Bends" in March 1995?
+    correct_answer: Radiohead
+    incorrect_answers:
+    - Nirvana
+    - Coldplay
+    - U2
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which band had hits in 1975 with the songs, 'One Of These Nights' &
+      'Lyin Eyes'?
+    correct_answer: The Eagles
+    incorrect_answers:
+    - Fools Gold
+    - The Doobie Brothers
+    - Fleetwood Mac
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who had a 1983 hit with the song 'Africa'?
+    correct_answer: Toto
+    incorrect_answers:
+    - Foreigner
+    - Steely Dan
+    - Journey
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Who is the primary lyricist for Canadian progressive rock band Rush?
+    correct_answer: Neil Peart
+    incorrect_answers:
+    - Geddy Lee
+    - Alex Lifeson
+    - John Rutsey
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the relationship between the band members of American rock band
+      King of Leon?
+    correct_answer: Brothers & cousins
+    incorrect_answers:
+    - Childhood friends
+    - Former classmates
+    - Fraternity house members
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Where did the British Boy Band "Bros" come from?
+    correct_answer: Camberley
+    incorrect_answers:
+    - Guildford
+    - Aldershot
+    - Bagshot
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of Pearl Jam?
+    correct_answer: Eddie Vedder
+    incorrect_answers:
+    - Ozzy Osbourne
+    - Stone Gossard
+    - Kurt Cobain
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Which M83 album is the song "Midnight City" featured in?
+    correct_answer: Hurry Up, We're Dreaming
+    incorrect_answers:
+    - Saturdays = Youth
+    - Before the Dawn Heals Us
+    - Junk
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: 'The alternative rock band, They Might Be Giants, released their album
+      ''Flood'' in 1990. '
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Stevie Wonder's real name is Stevland Hardaway Morris.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was David Bowie's real surname?
+    correct_answer: Jones
+    incorrect_answers:
+    - Johnson
+    - Edwards
+    - Carter
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which Elton John hit starts with the line "When are you gonna come down"?
+    correct_answer: Goodbye Yellow Brick Road
+    incorrect_answers:
+    - Rocket Man
+    - Bennie and the Jets
+    - Crocodile Rock
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: Who was not in the band "The Smiths"?
+    correct_answer: Martin Chambers
+    incorrect_answers:
+    - Morrissey
+    - Andy Rourke
+    - Mike Joyce
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: Ashley Frangipane performs under the stage name Halsey.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Eurobeat is primarily an Italian genre of music.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What is the real name of Canadian electronic music producer deadmau5?
+    correct_answer: Joel Zimmerman
+    incorrect_answers:
+    - Sonny Moore
+    - Adam Richard Wiles
+    - Thomas Wesley Pentz
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Which band released songs suchs as "Rio", "Girls on Film", and "The
+      Reflex"?
+    correct_answer: Duran Duran
+    incorrect_answers:
+    - The Cure
+    - New Order
+    - Depeche Mode
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: In which year did "Caravan Palace" release their first album?
+    correct_answer: 2008
+    incorrect_answers:
+    - 2000
+    - 2015
+    - 2004
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: When was the 3rd album "Notes from the Underground" of the band "Hollywood
+      Undead" released?
+    correct_answer: 2013
+    incorrect_answers:
+    - 2011
+    - 2014
+    - 2009
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: "How many members are there in the idol group \"\xB5's\"?"
+    correct_answer: 9
+    incorrect_answers:
+    - 48
+    - 6
+    - 3
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who is the lead singer of the British pop rock band Coldplay?
+    correct_answer: Chris Martin
+    incorrect_answers:
+    - Jonny Buckland
+    - Guy Berryman
+    - Will Champion
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: In Mean Girls, who has breasts that tell when it's raining?
+    correct_answer: Karen Smith
+    incorrect_answers:
+    - Gretchen Weiners
+    - Janice Ian
+    - Cady Heron
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: From which country does the piano originate?
+    correct_answer: Italy
+    incorrect_answers:
+    - Germany
+    - Austria
+    - France
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: What was the title of ABBA`s first UK hit single?
+    correct_answer: Waterloo
+    incorrect_answers:
+    - Mamma Mia
+    - Fernando
+    - Dancing Queen
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists do NOT originate from France?
+    correct_answer: The Chemical Brothers
+    incorrect_answers:
+    - Air
+    - Justice
+    - Daft Punk
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: hard
+    question: What is the British term for a 64th note?
+    correct_answer: Hemidemisemiquaver
+    incorrect_answers:
+    - Semihemidemisemiquaver
+    - Semiquaver
+    - Demisemiquaver
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: The 1952 musical composition 4'33", composed by prolific American composer
+      John Cage, is mainly comprised of what sound?
+    correct_answer: Silence
+    incorrect_answers:
+    - Farts
+    - People talking
+    - Cricket chirps
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Who wrote the Sinead O`Connor hit 'Nothing Compares 2 U'?
+    correct_answer: Prince
+    incorrect_answers:
+    - Michael Jackson
+    - Cameo
+    - Rick James
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: According to a Beatles song, who kept her face in a jar by the door?
+    correct_answer: Eleanor Rigby
+    incorrect_answers:
+    - Loretta Martin
+    - Molly Jones
+    - Lady Madonna
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which artist or group did John Lennon consider "son(s) of the Beatles"?
+    correct_answer: Jeff Lynne's Electric Light Orchestra
+    incorrect_answers:
+    - The Rolling Stones
+    - Pink Floyd
+    - The Who
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these artists was NOT a member of the electronic music supergroup
+      Swedish House Mafia, which split up in 2013?
+    correct_answer: Alesso
+    incorrect_answers:
+    - Steve Angello
+    - Sebastian Ingrosso
+    - Axwell
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these is NOT a song on The Beatles' 1968 self titled album,
+      also known as the White album?
+    correct_answer: Being For The Benefit Of Mr. Kite!
+    incorrect_answers:
+    - Why Don't We Do It in the Road?
+    - Everybody's Got Something to Hide Except Me and My Monkey
+    - The Continuing Story of Bungalow Bill
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: easy
+    question: Brian May was the guitarist for which band?
+    correct_answer: Queen
+    incorrect_answers:
+    - Pink Floyd
+    - Rolling Stones
+    - The Doors
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which iconic album cover features the pulsar waves of CP 1919 placed
+      in the center of the cover?
+    correct_answer: Unknown Pleasures
+    incorrect_answers:
+    - The Dark Side of the Moon
+    - London Calling
+    - The Velvet Underground & Nico
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: medium
+    question: EDM label Monstercat signs tracks instead of artists.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: boolean
+    difficulty: easy
+    question: Scatman John's real name was John Paul Larkin.
+    correct_answer: True
+    incorrect_answers:
+    - False
+  - category: 'Entertainment: Music'
+    type: multiple
+    difficulty: medium
+    question: Which of these bands was a featuring artist in Compton rapper Kendrick
+      Lamar's 2017 album, "DAMN."?
+    correct_answer: U2
+    incorrect_answers:
+    - Radiohead
+    - Coldplay
+    - Bon Jovi

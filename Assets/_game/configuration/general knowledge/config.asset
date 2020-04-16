@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e3f18abdb25ce40980f1d7f8499526, type: 3}
+  m_Name: config
+  m_EditorClassIdentifier: 
+  mainTitle: General Knowledge
+  theme: {fileID: 11400000, guid: 022fa590687ee8c41a9445f1354cb464, type: 2}
+  library: {fileID: 11400000, guid: 0c4bdac0dff0fbe49ab4dc64b81a8f87, type: 2}
+  productName: Q:General Knowledge
+  packageName: com.tcstudios.quizzed.gen
+  overrideForIOS: 0
+  productNameForIOS: 
+  packageNameForIOS: 
+  defaultIcon:
+  - {fileID: 2800000, guid: 93a8872b1d2238b46af84eab5b90e821, type: 3}
+  shareImage: {fileID: 2800000, guid: 4e62357d802ef4b478054284b6e29847, type: 3}
+  shareText: Test your General knowledge!
+  shareURL: Download it here https://quizzed.page.link/gen
+  roundSize: 10
+  roundTime: 60
+  androidProductID: remove.ads
+  iOSProductID: gen.remove.ads
+  title: Q:General Knowledge
+  body: How much do you know about random stuff? Find out!
+  smallIconName: myicon.png

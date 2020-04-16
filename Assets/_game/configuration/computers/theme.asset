@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbee450c9c558c240a6eb622ebc87d0d, type: 3}
+  m_Name: theme
+  m_EditorClassIdentifier: 
+  titleText:
+    font: {fileID: 11400000, guid: 2d7b23afb85201242a9c58a5ff07acbf, type: 2}
+    overrideColor: 1
+    color: {r: 0.21960786, g: 0.3529412, b: 0.6509804, a: 1}
+  headerText:
+    font: {fileID: 11400000, guid: 91dc454405d0e4d78b6b8f341fb38287, type: 2}
+    overrideColor: 1
+    color: {r: 0.21960786, g: 0.3529412, b: 0.6509804, a: 1}
+  buttonText:
+    font: {fileID: 11400000, guid: c11bd3d956e0448c79f28f8c2f78721d, type: 2}
+    overrideColor: 1
+    color: {r: 0.21960786, g: 0.3529412, b: 0.6509804, a: 1}
+  text:
+    font: {fileID: 11400000, guid: 91dc454405d0e4d78b6b8f341fb38287, type: 2}
+    overrideColor: 1
+    color: {r: 0.11307406, g: 0.3804079, b: 0.7264151, a: 1}
+  background: {fileID: 21300000, guid: 6f8a9a38e3c6b2f4c9c7130ff96edf25, type: 3}
+  panel: {fileID: 21300000, guid: f0baac511fdd3e94b8154d434c51c08d, type: 3}
+  playButton:
+    active: {fileID: 21300000, guid: c73d0a4bca563124596cbc649ded5763, type: 3}
+    pressed: {fileID: 21300000, guid: 0901f6d6e3f58904991fa900ff602d42, type: 3}
+    disabled: {fileID: 21300000, guid: b2137aae85e4a044e9c2b8c00ec280d2, type: 3}
+  quizButton:
+    active: {fileID: 21300000, guid: c73d0a4bca563124596cbc649ded5763, type: 3}
+    pressed: {fileID: 21300000, guid: 7980d4fcf529d784f9c38fa38736456a, type: 3}
+    disabled: {fileID: 21300000, guid: 3d8ac3f58379b4f7c9ab81dd13a176bc, type: 3}
+  defaultButton:
+    active: {fileID: 21300000, guid: c73d0a4bca563124596cbc649ded5763, type: 3}
+    pressed: {fileID: 21300000, guid: 0901f6d6e3f58904991fa900ff602d42, type: 3}
+    disabled: {fileID: 21300000, guid: b2137aae85e4a044e9c2b8c00ec280d2, type: 3}
+  roundButton:
+    active: {fileID: 21300000, guid: 7980d4fcf529d784f9c38fa38736456a, type: 3}
+    pressed: {fileID: 21300000, guid: 0901f6d6e3f58904991fa900ff602d42, type: 3}
+    disabled: {fileID: 21300000, guid: b2137aae85e4a044e9c2b8c00ec280d2, type: 3}
+  exitButton:
+    active: {fileID: 21300000, guid: 2b326a117eba64b43bfa2ddad5f3f3ea, type: 3}
+    pressed: {fileID: 21300000, guid: 2b326a117eba64b43bfa2ddad5f3f3ea, type: 3}
+    disabled: {fileID: 21300000, guid: 2b326a117eba64b43bfa2ddad5f3f3ea, type: 3}
+  accuracyRadial:
+    background: {fileID: 21300000, guid: aa46c8d5aff4bb44aabf49546f67e143, type: 3}
+    fill: {fileID: 21300000, guid: 7980d4fcf529d784f9c38fa38736456a, type: 3}
+    color: {r: 1, g: 1, b: 1, a: 1}
+  homeIcon: {fileID: 21300000, guid: 641de2fa3fd2879478639e257e270368, type: 3}
+  settingsIcon: {fileID: 21300000, guid: 9e20651a7b4c6ce408b6a52703025e74, type: 3}
+  leaderboardIcon: {fileID: 21300000, guid: 0f92cfcf607d49842b366e590ba5e55a, type: 3}
+  shareIcon: {fileID: 21300000, guid: 89a232cfa4056194db8e4c1b01b0011b, type: 3}
+  correctClip: 
+  incorrectClip: 

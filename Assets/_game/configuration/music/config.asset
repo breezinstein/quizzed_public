@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5e3f18abdb25ce40980f1d7f8499526, type: 3}
+  m_Name: config
+  m_EditorClassIdentifier: 
+  mainTitle: Music
+  theme: {fileID: 11400000, guid: 2a3618a3810724d23a8f84aad1bd5716, type: 2}
+  library: {fileID: 11400000, guid: cb1dc6acfd32744b5a077ea8554e6c7b, type: 2}
+  productName: Q:Music
+  packageName: com.tcstudios.quizzed.music
+  overrideForIOS: 1
+  productNameForIOS: 'Q: Music for iOS'
+  packageNameForIOS: com.tcstudios.quizzed.qmusic
+  defaultIcon:
+  - {fileID: 2800000, guid: a50c2cfd351e7dd4cabb6f60d56225fd, type: 3}
+  shareImage: {fileID: 2800000, guid: 4e62357d802ef4b478054284b6e29847, type: 3}
+  shareText: Test your Music knowledge!
+  shareURL: Download it here https://quizzed.page.link/music
+  roundSize: 10
+  roundTime: 60
+  androidProductID: remove.ads
+  iOSProductID: music.remove.ads
+  title: Q:Music
+  body: How much do you know about music? Find out!
+  smallIconName: myicon.png
