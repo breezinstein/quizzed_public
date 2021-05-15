@@ -15,8 +15,6 @@ public class ScrapeQuestions : MonoBehaviour
     public int timesToRun;
     public int finalRunAmount;
 
-
-
     string url = "https://opentdb.com/api.php?encode=base64";
     public QuestionSet set;
     // Start is called before the first frame update
@@ -30,7 +28,7 @@ public class ScrapeQuestions : MonoBehaviour
         string temp = "https://opentdb.com/api_token.php?command=request";
         UnityWebRequest www =  UnityWebRequest.Get(temp);
         yield return www.SendWebRequest();
-        if (www.isNetworkError || www.isHttpError)
+        if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
         {
             Debug.Log(www.error);
         }
@@ -58,7 +56,7 @@ public class ScrapeQuestions : MonoBehaviour
         string temp = "https://opentdb.com/api_count_global.php";
         UnityWebRequest www = UnityWebRequest.Get(temp);
         yield return www.SendWebRequest();
-        if (www.isNetworkError || www.isHttpError)
+        if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
         {
             Debug.Log(www.error);
         }
@@ -102,7 +100,7 @@ public class ScrapeQuestions : MonoBehaviour
 
             yield return www.SendWebRequest();
 
-            if (www.isNetworkError || www.isHttpError)
+            if (www.result == UnityWebRequest.Result.ConnectionError || www.result == UnityWebRequest.Result.ProtocolError)
             {
                 Debug.Log(www.error);
 

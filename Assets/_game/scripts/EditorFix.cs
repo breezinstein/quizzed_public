@@ -61,8 +61,9 @@ public static class EditorFix
     // has a different array count than the prefab, but not any data about the added thing
     private static void HandlePrefabInstance(GameObject gameObject)
     {
-        var prefabType = PrefabUtility.GetPrefabType(gameObject);
-        if (prefabType == PrefabType.PrefabInstance)
+        //var prefabType = PrefabUtility.GetPrefabType(gameObject);
+        PrefabInstanceStatus prefabType = PrefabUtility.GetPrefabInstanceStatus(gameObject);
+        if (prefabType != PrefabInstanceStatus.NotAPrefab)
         {
             PrefabUtility.RecordPrefabInstancePropertyModifications(gameObject);
         }
